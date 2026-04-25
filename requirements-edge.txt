@@ -1,0 +1,12 @@
+# Heavyweight conversion toolchain. Only install when you actually run
+# scripts/convert_to_litert.py — these deps are huge and partially
+# overlap with each other in version constraints.
+#
+#   pip install -r requirements-edge.txt
+#
+ai-edge-torch>=0.3.0
+ai-edge-litert>=1.0
+mediapipe>=0.10.20
+peft>=0.11
+safetensors>=0.4
+huggingface-hub>=0.24

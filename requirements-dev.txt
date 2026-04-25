@@ -1,0 +1,11 @@
+# Dev-only deps for the RAG testbench. Not installed in the production Docker
+# image (the API only serves JSON — no model inference happens server-side).
+-r requirements.txt
+sentence-transformers>=3.0
+transformers>=4.44
+torch>=2.4
+accelerate>=0.33
+python-dotenv>=1.0
+# Optional: uncomment to test GGUF-quantized Gemma variants (Q2..Q8) locally.
+# Pre-quantized files on HF: bartowski/gemma-2-2b-it-GGUF
+# llama-cpp-python>=0.2.90
