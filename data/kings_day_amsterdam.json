@@ -1,0 +1,1442 @@
+{
+  "pack_id": "kings_day_amsterdam",
+  "version": "1.0",
+  "documents": [
+    {
+      "title": "EHBO First-Aid Posts — King's Day Amsterdam (Official)",
+      "category": "Navigation",
+      "content": "Official EHBO (first-aid) posts on King's Day Amsterdam. For non-life-threatening issues, go to the nearest post instead of calling 112. All posts are open 11:30–23:30 unless otherwise stated.\n\n- EHBO-post Centraal Station — Burgwallen-Nieuwezijds, Amsterdam\n- EHBO-post Dam — Dam, Amsterdam\n- EHBO-post Koningsplein — Koningsplein , Amsterdam\n- EHBO-post Leidseplein — Leidseplein, Amsterdam\n- EHBO-post Noordermarkt — Noordermarkt, Amsterdam\n- EHBO-post Rembrandtplein — Rembrandtplein, Amsterdam\n- EHBO-post Vondelpark — Vondelpark, Amsterdam\n- EHBO-post Westermarkt — Westermarkt, Amsterdam",
+      "tags": [
+        "ehbo",
+        "first_aid_post",
+        "navigation",
+        "kings_day"
+      ],
+      "priority": "high",
+      "severity": "info",
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026"
+    }
+  ],
+  "points_of_interest": [
+    {
+      "name": "EHBO-post Centraal Station",
+      "kind": "ehbo",
+      "lat": 52.377938,
+      "lng": 4.899551,
+      "address": "Burgwallen-Nieuwezijds, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 11.30 - 23.30 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357818/4.855606/52.398058/4.943496/topo/45300//12619310@45300"
+    },
+    {
+      "name": "EHBO-post Dam",
+      "kind": "ehbo",
+      "lat": 52.372925,
+      "lng": 4.893404,
+      "address": "Dam, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 12.30 - 22.30 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352803/4.849459/52.393047/4.937349/topo/45300//12619313@45300"
+    },
+    {
+      "name": "EHBO-post Rembrandtplein",
+      "kind": "ehbo",
+      "lat": 52.366412,
+      "lng": 4.897163,
+      "address": "Rembrandtplein, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 12.30 - 22.30 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.346287/4.853218/52.386537/4.941108/topo/45300//12619316@45300"
+    },
+    {
+      "name": "EHBO-post Leidseplein",
+      "kind": "ehbo",
+      "lat": 52.363981,
+      "lng": 4.882545,
+      "address": "Leidseplein, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 12.30 - 23.30 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.343855/4.838600/52.384107/4.926490/topo/45300//12619319@45300"
+    },
+    {
+      "name": "EHBO-post Vondelpark",
+      "kind": "ehbo",
+      "lat": 52.358035,
+      "lng": 4.869144,
+      "address": "Vondelpark, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 09.00 - 18.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.337906/4.825199/52.378164/4.913089/topo/45300//12619322@45300"
+    },
+    {
+      "name": "EHBO-post Noordermarkt",
+      "kind": "ehbo",
+      "lat": 52.37996,
+      "lng": 4.887322,
+      "address": "Noordermarkt, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 11.00 - 22.30 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.359841/4.843377/52.400079/4.931267/topo/45300//12619325@45300"
+    },
+    {
+      "name": "EHBO-post Koningsplein",
+      "kind": "ehbo",
+      "lat": 52.367448,
+      "lng": 4.889467,
+      "address": "Koningsplein , Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 12.30 - 22.30 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.347323/4.845522/52.387573/4.933412/topo/45300//12619328@45300"
+    },
+    {
+      "name": "EHBO-post Westermarkt",
+      "kind": "ehbo",
+      "lat": 52.374169,
+      "lng": 4.88439,
+      "address": "Westermarkt, Amsterdam",
+      "description": "EHBO-posten voor eerste hulp bij ongevallen tijdens Koningsdag 13.00 - 20.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.354047/4.840445/52.394291/4.928335/topo/45300//12619331@45300"
+    },
+    {
+      "name": "Anton de Komplein 152",
+      "kind": "toilet",
+      "lat": 52.316098,
+      "lng": 4.9556858,
+      "address": "Anton de Komplein 152",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.295950/4.911740/52.336246/4.999631/topo/45309//12575988@45309"
+    },
+    {
+      "name": "(Klein) Bijlmerplein 627",
+      "kind": "toilet",
+      "lat": 52.3145109,
+      "lng": 4.95434,
+      "address": "(Klein) Bijlmerplein 627",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.294362/4.910395/52.334660/4.998285/topo/45309//12575991@45309"
+    },
+    {
+      "name": "(Groot) Bijlmerplein 970",
+      "kind": "toilet",
+      "lat": 52.3133133,
+      "lng": 4.9517679,
+      "address": "(Groot) Bijlmerplein 970",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.293164/4.907823/52.333463/4.995713/topo/45309//12575994@45309"
+    },
+    {
+      "name": "Apollolaan nabij stadionweg evenzijde (mozartkade)",
+      "kind": "toilet",
+      "lat": 52.350053,
+      "lng": 4.88117,
+      "address": "Apollolaan nabij stadionweg evenzijde (mozartkade)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.329920/4.837225/52.370186/4.925115/topo/45309//12575997@45309"
+    },
+    {
+      "name": "Apollollaan - Beethovenstraat",
+      "kind": "toilet",
+      "lat": 52.350483,
+      "lng": 4.878928,
+      "address": "Apollollaan - Beethovenstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.330351/4.834983/52.370615/4.922873/topo/45309//12576000@45309"
+    },
+    {
+      "name": "Apollolaan nabij Stadionweg onevenzijde",
+      "kind": "toilet",
+      "lat": 52.348882,
+      "lng": 4.882725,
+      "address": "Apollolaan nabij Stadionweg onevenzijde",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.328749/4.838780/52.369015/4.926670/topo/45309//12576003@45309"
+    },
+    {
+      "name": "Apollolaan hoek breitnerstraat",
+      "kind": "toilet",
+      "lat": 52.350608,
+      "lng": 4.873625,
+      "address": "Apollolaan hoek breitnerstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.330476/4.829680/52.370740/4.917570/topo/45309//12576006@45309"
+    },
+    {
+      "name": "Minervaplein evenzijde",
+      "kind": "toilet",
+      "lat": 52.34656,
+      "lng": 4.872796,
+      "address": "Minervaplein evenzijde",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.326426/4.828851/52.366694/4.916741/topo/45309//12576009@45309"
+    },
+    {
+      "name": "Kloveniersburgwal / Nieuwe Doelenstraat",
+      "kind": "toilet",
+      "lat": 52.368357,
+      "lng": 4.896097,
+      "address": "Kloveniersburgwal / Nieuwe Doelenstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.348233/4.852152/52.388481/4.940042/topo/45309//12576012@45309"
+    },
+    {
+      "name": "Oudezijds Voorburgwal / Pieter JacobszStraat",
+      "kind": "toilet",
+      "lat": 52.371498,
+      "lng": 4.895232,
+      "address": "Oudezijds Voorburgwal / Pieter JacobszStraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.351375/4.851287/52.391621/4.939177/topo/45309//12576015@45309"
+    },
+    {
+      "name": "Spuistraat 2 locatie Kattengat",
+      "kind": "toilet",
+      "lat": 52.377429,
+      "lng": 4.89414,
+      "address": "Spuistraat 2 locatie Kattengat ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357309/4.850195/52.397549/4.938085/topo/45309//12576018@45309"
+    },
+    {
+      "name": "Muntplein",
+      "kind": "toilet",
+      "lat": 52.367374,
+      "lng": 4.893749,
+      "address": "Muntplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.347249/4.849804/52.387499/4.937694/topo/45309//12576021@45309"
+    },
+    {
+      "name": "Spuistraat locatie to 269/271",
+      "kind": "toilet",
+      "lat": 52.369955,
+      "lng": 4.888884,
+      "address": "Spuistraat locatie to 269/271",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.349832/4.844939/52.390078/4.932829/topo/45309//12576024@45309"
+    },
+    {
+      "name": "Singel 116K (t/o Singel 114)",
+      "kind": "toilet",
+      "lat": 52.3761612,
+      "lng": 4.8908582,
+      "address": "Singel 116K (t/o Singel 114)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356041/4.846913/52.396282/4.934804/topo/45309//12576027@45309"
+    },
+    {
+      "name": "Singel / Paleisstraat",
+      "kind": "toilet",
+      "lat": 52.372119,
+      "lng": 4.888823,
+      "address": "Singel / Paleisstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.351997/4.844878/52.392241/4.932768/topo/45309//12576033@45309"
+    },
+    {
+      "name": "Singel / Raadhuisstraat",
+      "kind": "toilet",
+      "lat": 52.373098,
+      "lng": 4.889167,
+      "address": "Singel / Raadhuisstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352976/4.845222/52.393220/4.933112/topo/45309//12576036@45309"
+    },
+    {
+      "name": "Singel T.H.V: No 213",
+      "kind": "toilet",
+      "lat": 52.372603,
+      "lng": 4.88897,
+      "address": "Singel T.H.V: No 213",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352481/4.845025/52.392725/4.932915/topo/45309//12576039@45309"
+    },
+    {
+      "name": "Stationsplein / Westertoegang",
+      "kind": "toilet",
+      "lat": 52.3787311,
+      "lng": 4.8980075,
+      "address": "Stationsplein / Westertoegang",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.358612/4.854062/52.398851/4.941953/topo/45309//12576042@45309"
+    },
+    {
+      "name": "Stationsplein / Ijzijde naast de pontaanlanding",
+      "kind": "toilet",
+      "lat": 52.3807806,
+      "lng": 4.8988855,
+      "address": "Stationsplein / Ijzijde naast de pontaanlanding",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.360662/4.854940/52.400899/4.942831/topo/45309//12576045@45309"
+    },
+    {
+      "name": "Oudezijds Achterburgwal / Rusland",
+      "kind": "toilet",
+      "lat": 52.370215,
+      "lng": 4.895945,
+      "address": "Oudezijds Achterburgwal / Rusland",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.350092/4.852000/52.390338/4.939890/topo/45309//12576048@45309"
+    },
+    {
+      "name": "Kloveniersburgwal / Koestraat",
+      "kind": "toilet",
+      "lat": 52.371844,
+      "lng": 4.899035,
+      "address": "Kloveniersburgwal / Koestraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.351721/4.855090/52.391967/4.942980/topo/45309//12576051@45309"
+    },
+    {
+      "name": "Prins Hendrikkade T.H.V. No 59",
+      "kind": "toilet",
+      "lat": 52.37666,
+      "lng": 4.900379,
+      "address": "Prins Hendrikkade T.H.V. No 59 ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356540/4.856434/52.396780/4.944324/topo/45309//12576054@45309"
+    },
+    {
+      "name": "Geldersekade / Stormsteeg",
+      "kind": "toilet",
+      "lat": 52.374309,
+      "lng": 4.901109,
+      "address": "Geldersekade / Stormsteeg",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.354188/4.857164/52.394430/4.945054/topo/45309//12576057@45309"
+    },
+    {
+      "name": "Nes / Heremietenstraat",
+      "kind": "toilet",
+      "lat": 52.372178,
+      "lng": 4.893126,
+      "address": "Nes / Heremietenstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352056/4.849181/52.392300/4.937071/topo/45309//12576060@45309"
+    },
+    {
+      "name": "Oude Brugsteeg / Beursstraat",
+      "kind": "toilet",
+      "lat": 52.375587,
+      "lng": 4.897099,
+      "address": "Oude Brugsteeg / Beursstraat ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.355466/4.853154/52.395708/4.941044/topo/45309//12576063@45309"
+    },
+    {
+      "name": "Oudezijds Voorburgwal / Oude Kerksplein",
+      "kind": "toilet",
+      "lat": 52.374438,
+      "lng": 4.898757,
+      "address": "Oudezijds Voorburgwal / Oude Kerksplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.354317/4.854812/52.394559/4.942702/topo/45309//12576066@45309"
+    },
+    {
+      "name": "Weteringlaan / H.M. Van Randwijkplantsoen.",
+      "kind": "toilet",
+      "lat": 52.358662,
+      "lng": 4.891216,
+      "address": "Weteringlaan / H.M. Van Randwijkplantsoen.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.338533/4.847271/52.378791/4.935161/topo/45309//12576069@45309"
+    },
+    {
+      "name": "Frederiksplein",
+      "kind": "toilet",
+      "lat": 52.360748,
+      "lng": 4.899975,
+      "address": "Frederiksplein ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.340620/4.856030/52.380876/4.943920/topo/45309//12576072@45309"
+    },
+    {
+      "name": "Weteringschans No 259",
+      "kind": "toilet",
+      "lat": 52.359417,
+      "lng": 4.896556,
+      "address": "Weteringschans No 259",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.339289/4.852611/52.379545/4.940501/topo/45309//12576075@45309"
+    },
+    {
+      "name": "Amstel 344 / Sarphatistraat",
+      "kind": "toilet",
+      "lat": 52.360295,
+      "lng": 4.90307,
+      "address": "Amstel 344 / Sarphatistraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.340167/4.859125/52.380423/4.947015/topo/45309//12576078@45309"
+    },
+    {
+      "name": "Prinsengracht / Leidsestraat",
+      "kind": "toilet",
+      "lat": 52.364985,
+      "lng": 4.884125,
+      "address": "Prinsengracht / Leidsestraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.344859/4.840180/52.385111/4.928070/topo/45309//12576081@45309"
+    },
+    {
+      "name": "Weteringschans No 2",
+      "kind": "toilet",
+      "lat": 52.362476,
+      "lng": 4.883677,
+      "address": "Weteringschans No 2",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.342349/4.839732/52.382603/4.927622/topo/45309//12576084@45309"
+    },
+    {
+      "name": "Weteringschans  / Museumbrug",
+      "kind": "toilet",
+      "lat": 52.361083,
+      "lng": 4.886494,
+      "address": "Weteringschans  / Museumbrug",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.340956/4.842549/52.381210/4.930439/topo/45309//12576087@45309"
+    },
+    {
+      "name": "Marnixstraat / Leidsegracht",
+      "kind": "toilet",
+      "lat": 52.365378,
+      "lng": 4.880276,
+      "address": "Marnixstraat / Leidsegracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.345252/4.836331/52.385504/4.924221/topo/45309//12576090@45309"
+    },
+    {
+      "name": "Marnixstraat / Leidseplein",
+      "kind": "toilet",
+      "lat": 52.363752,
+      "lng": 4.881716,
+      "address": "Marnixstraat / Leidseplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.343626/4.837771/52.383878/4.925661/topo/45309//12576093@45309"
+    },
+    {
+      "name": "Leidseplein  T.H.V: No 3",
+      "kind": "toilet",
+      "lat": 52.36422,
+      "lng": 4.88318,
+      "address": "Leidseplein  T.H.V: No 3",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.344094/4.839235/52.384346/4.927125/topo/45309//12576096@45309"
+    },
+    {
+      "name": "Prinsengracht / Spiegelgracht",
+      "kind": "toilet",
+      "lat": 52.362715,
+      "lng": 4.887692,
+      "address": "Prinsengracht / Spiegelgracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.342588/4.843747/52.382842/4.931637/topo/45309//12576099@45309"
+    },
+    {
+      "name": "Lijnbaansgracht /Spiegelgracht.",
+      "kind": "toilet",
+      "lat": 52.3618,
+      "lng": 4.886805,
+      "address": "Lijnbaansgracht /Spiegelgracht.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.341673/4.842860/52.381927/4.930750/topo/45309//12576102@45309"
+    },
+    {
+      "name": "Prinsengracht / Vijzelgracht.",
+      "kind": "toilet",
+      "lat": 52.3619,
+      "lng": 4.891455,
+      "address": "Prinsengracht / Vijzelgracht.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.341773/4.847510/52.382027/4.935400/topo/45309//12576105@45309"
+    },
+    {
+      "name": "Eerste Weteringdwarsstraat t/o 49",
+      "kind": "toilet",
+      "lat": 52.3618713,
+      "lng": 4.8888828,
+      "address": "Eerste Weteringdwarsstraat t/o 49",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.341744/4.844937/52.381998/4.932828/topo/45309//12576108@45309"
+    },
+    {
+      "name": "Prinsengracht 644A-B",
+      "kind": "toilet",
+      "lat": 52.3620746,
+      "lng": 4.8910016,
+      "address": "Prinsengracht 644A-B",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.341948/4.847056/52.382202/4.934947/topo/45309//12576111@45309"
+    },
+    {
+      "name": "Vijzelgracht bij ingang metro",
+      "kind": "toilet",
+      "lat": 52.3600485,
+      "lng": 4.8907869,
+      "address": "Vijzelgracht bij ingang metro",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.339921/4.846842/52.380176/4.934732/topo/45309//12576114@45309"
+    },
+    {
+      "name": "Eerste Weteringplantsoen",
+      "kind": "toilet",
+      "lat": 52.3591605,
+      "lng": 4.8901155,
+      "address": "Eerste Weteringplantsoen",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.339032/4.846170/52.379289/4.934061/topo/45309//12576117@45309"
+    },
+    {
+      "name": "Weteringschans 30",
+      "kind": "toilet",
+      "lat": 52.3603314,
+      "lng": 4.8880461,
+      "address": "Weteringschans 30",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.340204/4.844101/52.380459/4.931991/topo/45309//12576120@45309"
+    },
+    {
+      "name": "Romeinarmsteeg/hoek Singel",
+      "kind": "toilet",
+      "lat": 52.371244,
+      "lng": 4.887901,
+      "address": "Romeinarmsteeg/hoek Singel",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.351121/4.843956/52.391367/4.931846/topo/45309//12576123@45309"
+    },
+    {
+      "name": "Prinsengracht / Reestraat check",
+      "kind": "toilet",
+      "lat": 52.37247,
+      "lng": 4.883137,
+      "address": "Prinsengracht / Reestraat check",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352348/4.839192/52.392592/4.927082/topo/45309//12576126@45309"
+    },
+    {
+      "name": "Keizersgracht / Hartenstraat",
+      "kind": "toilet",
+      "lat": 52.372438,
+      "lng": 4.885135,
+      "address": "Keizersgracht / Hartenstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352316/4.841190/52.392560/4.929080/topo/45309//12576129@45309"
+    },
+    {
+      "name": "Herengracht / Gasthuismolensteeg",
+      "kind": "toilet",
+      "lat": 52.372221,
+      "lng": 4.887295,
+      "address": "Herengracht / Gasthuismolensteeg",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352099/4.843350/52.392343/4.931240/topo/45309//12576132@45309"
+    },
+    {
+      "name": "Keizersgracht / Berenstraat.",
+      "kind": "toilet",
+      "lat": 52.370304,
+      "lng": 4.884453,
+      "address": "Keizersgracht / Berenstraat.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.350181/4.840508/52.390427/4.928398/topo/45309//12576135@45309"
+    },
+    {
+      "name": "Herengracht / Oude Spiegelstraat",
+      "kind": "toilet",
+      "lat": 52.370303,
+      "lng": 4.887091,
+      "address": "Herengracht / Oude Spiegelstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.350180/4.843146/52.390426/4.931036/topo/45309//12576138@45309"
+    },
+    {
+      "name": "Prinsengracht op Brug 60.",
+      "kind": "toilet",
+      "lat": 52.378082,
+      "lng": 4.886352,
+      "address": "Prinsengracht op Brug 60.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357962/4.842407/52.398202/4.930297/topo/45309//12576141@45309"
+    },
+    {
+      "name": "Keizersgracht / Leidsegracht",
+      "kind": "toilet",
+      "lat": 52.366748,
+      "lng": 4.884733,
+      "address": "Keizersgracht / Leidsegracht ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.346623/4.840788/52.386873/4.928678/topo/45309//12576144@45309"
+    },
+    {
+      "name": "Herengracht / Leidsegracht",
+      "kind": "toilet",
+      "lat": 52.36756,
+      "lng": 4.886423,
+      "address": "Herengracht / Leidsegracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.347435/4.842478/52.387685/4.930368/topo/45309//12576147@45309"
+    },
+    {
+      "name": "Prinsengracht / Leliegracht.",
+      "kind": "toilet",
+      "lat": 52.376013,
+      "lng": 4.884651,
+      "address": "Prinsengracht / Leliegracht.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.355892/4.840706/52.396134/4.928596/topo/45309//12576150@45309"
+    },
+    {
+      "name": "Keizersgracht t/o 145",
+      "kind": "toilet",
+      "lat": 52.3757798,
+      "lng": 4.8865932,
+      "address": "Keizersgracht t/o 145 ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.355659/4.842648/52.395901/4.930539/topo/45309//12576153@45309"
+    },
+    {
+      "name": "Utrechtsestraat /Herengracht.",
+      "kind": "toilet",
+      "lat": 52.365273,
+      "lng": 4.89807,
+      "address": "Utrechtsestraat /Herengracht.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.345147/4.854125/52.385399/4.942015/topo/45309//12576156@45309"
+    },
+    {
+      "name": "Utrechtsestraat / Keizersgracht.",
+      "kind": "toilet",
+      "lat": 52.363938,
+      "lng": 4.898536,
+      "address": "Utrechtsestraat / Keizersgracht.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.343812/4.854591/52.384064/4.942481/topo/45309//12576159@45309"
+    },
+    {
+      "name": "Amstel / Kerkstraat",
+      "kind": "toilet",
+      "lat": 52.363368,
+      "lng": 4.901766,
+      "address": "Amstel / Kerkstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.343242/4.857821/52.383494/4.945711/topo/45309//12576162@45309"
+    },
+    {
+      "name": "Amstel / Kerkstraat",
+      "kind": "toilet",
+      "lat": 52.363548,
+      "lng": 4.901681,
+      "address": "Amstel / Kerkstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.343422/4.857736/52.383674/4.945626/topo/45309//12576165@45309"
+    },
+    {
+      "name": "Amstelveld / Kerkstraat",
+      "kind": "toilet",
+      "lat": 52.362609,
+      "lng": 4.8978,
+      "address": "Amstelveld / Kerkstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.342482/4.853855/52.382736/4.941745/topo/45309//12576168@45309"
+    },
+    {
+      "name": "Utrechtsestraat / Prinsengracht O.E.Z.",
+      "kind": "toilet",
+      "lat": 52.361949,
+      "lng": 4.898769,
+      "address": "Utrechtsestraat / Prinsengracht O.E.Z.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.341822/4.854824/52.382076/4.942714/topo/45309//12576171@45309"
+    },
+    {
+      "name": "Utrechtsestraat / Prinsengracht . E.Z.",
+      "kind": "toilet",
+      "lat": 52.362264,
+      "lng": 4.899078,
+      "address": "Utrechtsestraat / Prinsengracht . E.Z.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.342137/4.855133/52.382391/4.943023/topo/45309//12576174@45309"
+    },
+    {
+      "name": "Amstel / Amstelstraat",
+      "kind": "toilet",
+      "lat": 52.366163,
+      "lng": 4.900513,
+      "address": "Amstel / Amstelstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.346038/4.856568/52.386288/4.944458/topo/45309//12576177@45309"
+    },
+    {
+      "name": "Herengracht 605 / 607",
+      "kind": "toilet",
+      "lat": 52.3654832,
+      "lng": 4.8990831,
+      "address": "Herengracht 605 / 607",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.345358/4.855138/52.385609/4.943028/topo/45309//12576180@45309"
+    },
+    {
+      "name": "Keizersgracht / Vijzelstraat",
+      "kind": "toilet",
+      "lat": 52.364014,
+      "lng": 4.892808,
+      "address": "Keizersgracht / Vijzelstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.343888/4.848863/52.384140/4.936753/topo/45309//12576183@45309"
+    },
+    {
+      "name": "Herenmarkt / Brouwersgracht",
+      "kind": "toilet",
+      "lat": 52.379476,
+      "lng": 4.891764,
+      "address": "Herenmarkt / Brouwersgracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.359357/4.847819/52.399595/4.935709/topo/45309//12576186@45309"
+    },
+    {
+      "name": "Singel / Droogbak",
+      "kind": "toilet",
+      "lat": 52.380199,
+      "lng": 4.894992,
+      "address": "Singel / Droogbak",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.360080/4.851047/52.400318/4.938937/topo/45309//12576189@45309"
+    },
+    {
+      "name": "Haarlemmerplein",
+      "kind": "toilet",
+      "lat": 52.384413,
+      "lng": 4.883723,
+      "address": "Haarlemmerplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.364296/4.839778/52.404530/4.927668/topo/45309//12576192@45309"
+    },
+    {
+      "name": "Korte Prinsengracht / Haarlemmerhouttuinen",
+      "kind": "toilet",
+      "lat": 52.382219,
+      "lng": 4.889632,
+      "address": "Korte Prinsengracht / Haarlemmerhouttuinen",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.362101/4.845687/52.402337/4.933577/topo/45309//12576195@45309"
+    },
+    {
+      "name": "Haarlemmermeerstraat hoek Theophile de bockstraat",
+      "kind": "toilet",
+      "lat": 52.35504,
+      "lng": 4.850174,
+      "address": "Haarlemmermeerstraat hoek Theophile de bockstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.334910/4.806229/52.375170/4.894119/topo/45309//12576198@45309"
+    },
+    {
+      "name": "Lindengracht t.h.v. No 252",
+      "kind": "toilet",
+      "lat": 52.3798993,
+      "lng": 4.8824901,
+      "address": "Lindengracht t.h.v. No 252",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.359780/4.838545/52.400018/4.926435/topo/45309//12576201@45309"
+    },
+    {
+      "name": "Noordermarkt achterkant",
+      "kind": "toilet",
+      "lat": 52.379826,
+      "lng": 4.886648,
+      "address": "Noordermarkt achterkant",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.359707/4.842703/52.399945/4.930593/topo/45309//12576204@45309"
+    },
+    {
+      "name": "Noordermarkt",
+      "kind": "toilet",
+      "lat": 52.379878,
+      "lng": 4.887292,
+      "address": "Noordermarkt ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.359759/4.843347/52.399997/4.931237/topo/45309//12576207@45309"
+    },
+    {
+      "name": "Tweede Boomdwarsstraat 20",
+      "kind": "toilet",
+      "lat": 52.378566,
+      "lng": 4.883079,
+      "address": "Tweede Boomdwarsstraat 20 ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.358446/4.839134/52.398686/4.927024/topo/45309//12576210@45309"
+    },
+    {
+      "name": "Anjeliersstraat 476 (achter huisje)",
+      "kind": "toilet",
+      "lat": 52.377062,
+      "lng": 4.879606,
+      "address": "Anjeliersstraat 476",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356942/4.835661/52.397182/4.923551/topo/45309//12576213@45309"
+    },
+    {
+      "name": "Lindengracht 105 op invalideparkeerplaats",
+      "kind": "toilet",
+      "lat": 52.3800489,
+      "lng": 4.8841362,
+      "address": "Lindengracht 105 op invalideparkeerplaats",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.359930/4.840191/52.400168/4.928082/topo/45309//12576216@45309"
+    },
+    {
+      "name": "Tuinstraat t/o 157",
+      "kind": "toilet",
+      "lat": 52.376837,
+      "lng": 4.881011,
+      "address": "Tuinstraat t/o 157",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356717/4.837066/52.396957/4.924956/topo/45309//12576219@45309"
+    },
+    {
+      "name": "Egelantiersstraat t/o 25",
+      "kind": "toilet",
+      "lat": 52.376995,
+      "lng": 4.883573,
+      "address": "Egelantiersstraat t/o 25",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356875/4.839628/52.397115/4.927518/topo/45309//12576222@45309"
+    },
+    {
+      "name": "Egelantiersgracht / Prinsengracht T.H.V: No 106B",
+      "kind": "toilet",
+      "lat": 52.376826,
+      "lng": 4.884829,
+      "address": "Egelantiersgracht / Prinsengracht T.H.V: No 106B",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356706/4.840884/52.396946/4.928774/topo/45309//12576225@45309"
+    },
+    {
+      "name": "Tuinplein (thv Tuinstraat 61)",
+      "kind": "toilet",
+      "lat": 52.3771432,
+      "lng": 4.8834301,
+      "address": "Tuinplein (thv Tuinstraat 61) ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357023/4.839485/52.397263/4.927375/topo/45309//12576228@45309"
+    },
+    {
+      "name": "Westerstraat t/o nr. 202 op middenstuk",
+      "kind": "toilet",
+      "lat": 52.3780068,
+      "lng": 4.8812294,
+      "address": "Westerstraat t/o nr. 202 op middenstuk ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357887/4.837284/52.398127/4.925175/topo/45309//12576231@45309"
+    },
+    {
+      "name": "Rozengracht / Tweede Bloemdwarsstraat.",
+      "kind": "toilet",
+      "lat": 52.373289,
+      "lng": 4.879881,
+      "address": "Rozengracht / Tweede Bloemdwarsstraat.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.353167/4.835936/52.393411/4.923826/topo/45309//12576234@45309"
+    },
+    {
+      "name": "Bloemstraat 145 tussen parkeerplaatsen op stoep",
+      "kind": "toilet",
+      "lat": 52.373518,
+      "lng": 4.8786095,
+      "address": "Bloemstraat 145 tussen parkeerplaatsen op stoep",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.353396/4.834664/52.393640/4.922555/topo/45309//12576237@45309"
+    },
+    {
+      "name": "Palmgracht / Brouwersgracht",
+      "kind": "toilet",
+      "lat": 52.382265,
+      "lng": 4.884716,
+      "address": "Palmgracht / Brouwersgracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.362147/4.840771/52.402383/4.928661/topo/45309//12576240@45309"
+    },
+    {
+      "name": "Lijnbaansgracht /Elandsgracht.",
+      "kind": "toilet",
+      "lat": 52.368909,
+      "lng": 4.878506,
+      "address": "Lijnbaansgracht /Elandsgracht.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.348785/4.834561/52.389033/4.922451/topo/45309//12576243@45309"
+    },
+    {
+      "name": "Elandsgracht t/o 103",
+      "kind": "toilet",
+      "lat": 52.36909,
+      "lng": 4.879065,
+      "address": "Elandsgracht t/o 103",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.348966/4.835120/52.389214/4.923010/topo/45309//12576246@45309"
+    },
+    {
+      "name": "Prinsengracht / Looiersgracht",
+      "kind": "toilet",
+      "lat": 52.368862,
+      "lng": 4.882404,
+      "address": "Prinsengracht / Looiersgracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.348738/4.838459/52.388986/4.926349/topo/45309//12576249@45309"
+    },
+    {
+      "name": "Eerste Laurierdwarsstraat",
+      "kind": "toilet",
+      "lat": 52.3721916,
+      "lng": 4.8810568,
+      "address": "Eerste Laurierdwarsstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352069/4.837111/52.392314/4.925002/topo/45309//12576252@45309"
+    },
+    {
+      "name": "Rozenstraat 2 (tegenover)",
+      "kind": "toilet",
+      "lat": 52.3731302,
+      "lng": 4.8825039,
+      "address": "Rozenstraat 2 (tegenover)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.353008/4.838559/52.393252/4.926449/topo/45309//12576255@45309"
+    },
+    {
+      "name": "Konijnenstraat 1 (tegenover)",
+      "kind": "toilet",
+      "lat": 52.3713376,
+      "lng": 4.8815052,
+      "address": "Konijnenstraat 1 (tegenover)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.351215/4.837560/52.391460/4.925451/topo/45309//12576258@45309"
+    },
+    {
+      "name": "Laurierstraat tegenover 2 voor blinde muur",
+      "kind": "toilet",
+      "lat": 52.3725649,
+      "lng": 4.8825181,
+      "address": "Laurierstraat tegenover 2 voor blinde muur",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352443/4.838573/52.392687/4.926463/topo/45309//12576261@45309"
+    },
+    {
+      "name": "Elandsstraat 123",
+      "kind": "toilet",
+      "lat": 52.3702445,
+      "lng": 4.8800052,
+      "address": "Elandsstraat 123",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.350121/4.836060/52.390368/4.923951/topo/45309//12576264@45309"
+    },
+    {
+      "name": "Marnixstraat / eerste Marnixplantsoen.",
+      "kind": "toilet",
+      "lat": 52.381606,
+      "lng": 4.880977,
+      "address": "Marnixstraat / eerste Marnixplantsoen.",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.361488/4.837032/52.401724/4.924922/topo/45309//12576267@45309"
+    },
+    {
+      "name": "Marnixstraat / Raamplein",
+      "kind": "toilet",
+      "lat": 52.366022,
+      "lng": 4.879957,
+      "address": "Marnixstraat / Raamplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.345897/4.836012/52.386147/4.923902/topo/45309//12576270@45309"
+    },
+    {
+      "name": "Prinsengracht / Passeerdersgracht",
+      "kind": "toilet",
+      "lat": 52.367509,
+      "lng": 4.882292,
+      "address": "Prinsengracht / Passeerdersgracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.347384/4.838347/52.387634/4.926237/topo/45309//12576273@45309"
+    },
+    {
+      "name": "Prinsengracht / Raamstraat",
+      "kind": "toilet",
+      "lat": 52.366556,
+      "lng": 4.882138,
+      "address": "Prinsengracht / Raamstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.346431/4.838193/52.386681/4.926083/topo/45309//12576276@45309"
+    },
+    {
+      "name": "Prinsengracht / Leidsegracht",
+      "kind": "toilet",
+      "lat": 52.365898,
+      "lng": 4.882734,
+      "address": "Prinsengracht / Leidsegracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.345773/4.838789/52.386023/4.926679/topo/45309//12576279@45309"
+    },
+    {
+      "name": "Leidsegracht / Raamdwarsstraat",
+      "kind": "toilet",
+      "lat": 52.365525,
+      "lng": 4.880752,
+      "address": "Leidsegracht / Raamdwarsstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.345400/4.836807/52.385650/4.924697/topo/45309//12576282@45309"
+    },
+    {
+      "name": "Eerste Passeerdersdwarsstraat tegenover 11 (blinde muur)",
+      "kind": "toilet",
+      "lat": 52.36776553113,
+      "lng": 4.8810574954701,
+      "address": "Eerste Passeerdersdwarsstraat tegenover 11 (blinde muur)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.347641/4.837112/52.387890/4.925003/topo/45309//12576285@45309"
+    },
+    {
+      "name": "Nieuwe Tuinstraat 3, voor blinde muur",
+      "kind": "toilet",
+      "lat": 52.3763846,
+      "lng": 4.8775202,
+      "address": "Nieuwe Tuinstraat 3, voor blinde muur",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356264/4.833575/52.396505/4.921466/topo/45309//12576288@45309"
+    },
+    {
+      "name": "Marnixstraat 138K, hoek Nieuwe Egelantiersstraat, bij boom",
+      "kind": "toilet",
+      "lat": 52.3753471,
+      "lng": 4.8770186,
+      "address": "Marnixstraat 138K, hoek Nieuwe Egelantiersstraat, bij boom",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.355226/4.833073/52.395468/4.920964/topo/45309//12576291@45309"
+    },
+    {
+      "name": "Vinkenstraat tegenover 62",
+      "kind": "toilet",
+      "lat": 52.381924,
+      "lng": 4.8874299,
+      "address": "Vinkenstraat tegenover 62",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.361806/4.843485/52.402042/4.931375/topo/45309//12576294@45309"
+    },
+    {
+      "name": "Marnixplein 3",
+      "kind": "toilet",
+      "lat": 52.3775683,
+      "lng": 4.8787186,
+      "address": "Marnixplein 3",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357448/4.834773/52.397688/4.922664/topo/45309//12576297@45309"
+    },
+    {
+      "name": "Marnixkade 75 (zijkant zwembad op fietsparkeerplaats)",
+      "kind": "toilet",
+      "lat": 52.3777,
+      "lng": 4.87816,
+      "address": "Marnixkade 75 (zijkant zwembad op fietsparkeerplaats)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.357580/4.834215/52.397820/4.922105/topo/45309//12576300@45309"
+    },
+    {
+      "name": "Roelof Hartstraat - Huize Lydia",
+      "kind": "toilet",
+      "lat": 52.353081,
+      "lng": 4.881877,
+      "address": "Roelof Hartstraat - Huize Lydia",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.332950/4.837932/52.373212/4.925822/topo/45309//12576303@45309"
+    },
+    {
+      "name": "Nieuwmarkt / Dijkstraat",
+      "kind": "toilet",
+      "lat": 52.372168,
+      "lng": 4.90075,
+      "address": "Nieuwmarkt / Dijkstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.352046/4.856805/52.392290/4.944695/topo/45309//12576306@45309"
+    },
+    {
+      "name": "Oosterdokskade  OBA",
+      "kind": "toilet",
+      "lat": 52.375648,
+      "lng": 4.908176,
+      "address": "Oosterdokskade  OBA",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.355527/4.864231/52.395769/4.952121/topo/45309//12576309@45309"
+    },
+    {
+      "name": "Oosterdokskade",
+      "kind": "toilet",
+      "lat": 52.376901,
+      "lng": 4.904076,
+      "address": "Oosterdokskade",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.356781/4.860131/52.397021/4.948021/topo/45309//12576312@45309"
+    },
+    {
+      "name": "Jodenbreestraat / Uilenburgerstraat",
+      "kind": "toilet",
+      "lat": 52.369154,
+      "lng": 4.902373,
+      "address": "Jodenbreestraat / Uilenburgerstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.349030/4.858428/52.389278/4.946318/topo/45309//12576315@45309"
+    },
+    {
+      "name": "Zwanenburgwal / Jodenbreestraat",
+      "kind": "toilet",
+      "lat": 52.369559,
+      "lng": 4.901347,
+      "address": "Zwanenburgwal / Jodenbreestraat ",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.349435/4.857402/52.389683/4.945292/topo/45309//12576318@45309"
+    },
+    {
+      "name": "Waterlooplein  t/o no 207",
+      "kind": "toilet",
+      "lat": 52.368112,
+      "lng": 4.90337,
+      "address": "Waterlooplein  t/o no 207",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.347988/4.859425/52.388236/4.947315/topo/45309//12576321@45309"
+    },
+    {
+      "name": "Waterlooplein (naast bagels & beans)",
+      "kind": "toilet",
+      "lat": 52.368639,
+      "lng": 4.900766,
+      "address": "Waterlooplein (naast bagels & beans)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.348515/4.856821/52.388763/4.944711/topo/45309//12576324@45309"
+    },
+    {
+      "name": "Amstel 1",
+      "kind": "toilet",
+      "lat": 52.3668487,
+      "lng": 4.9013143,
+      "address": "Amstel 1",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.346724/4.857369/52.386974/4.945260/topo/45309//12576327@45309"
+    },
+    {
+      "name": "Kloveniersburgwal / Raamgracht",
+      "kind": "toilet",
+      "lat": 52.369797,
+      "lng": 4.897872,
+      "address": "Kloveniersburgwal / Raamgracht",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.349673/4.853927/52.389921/4.941817/topo/45309//12576330@45309"
+    },
+    {
+      "name": "Somerlust",
+      "kind": "toilet",
+      "lat": 52.3398526,
+      "lng": 4.9149444,
+      "address": "Somerlust",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.319715/4.870999/52.359990/4.958890/topo/45309//12576333@45309"
+    },
+    {
+      "name": "Ceintuurbaan ter hoogte van Dusartstraat",
+      "kind": "toilet",
+      "lat": 52.352455,
+      "lng": 4.889448,
+      "address": "Ceintuurbaan ter hoogte van Dusartstraat",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.332324/4.845503/52.372586/4.933393/topo/45309//12576336@45309"
+    },
+    {
+      "name": "Nieuwe meersluis",
+      "kind": "toilet",
+      "lat": 52.339288,
+      "lng": 4.84709,
+      "address": "Nieuwe meersluis",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.319151/4.803145/52.359425/4.891035/topo/45309//12576339@45309"
+    },
+    {
+      "name": "Apollolaan bij NL Indie monument (olympiaplein)",
+      "kind": "toilet",
+      "lat": 52.35038,
+      "lng": 4.866417,
+      "address": "Apollolaan bij NL Indie monument (olympiaplein)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.330248/4.822472/52.370512/4.910362/topo/45309//12576342@45309"
+    },
+    {
+      "name": "Stadionweg v/a/ Parnassusweg richting stadionplein evenzijde",
+      "kind": "toilet",
+      "lat": 52.346759,
+      "lng": 4.867592,
+      "address": "Stadionweg v/a/ Parnassusweg richting stadionplein evenzijde",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.326625/4.823647/52.366893/4.911537/topo/45309//12576345@45309"
+    },
+    {
+      "name": "Dorpstraat (Weesp)",
+      "kind": "toilet",
+      "lat": 52.306647,
+      "lng": 5.042668,
+      "address": "Dorpstraat (Weesp)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.286495/4.998723/52.326799/5.086613/topo/45309//12576348@45309"
+    },
+    {
+      "name": "Nieuwstad t/o 6 aan de waterkant (Weesp)",
+      "kind": "toilet",
+      "lat": 52.308106,
+      "lng": 5.0399434,
+      "address": "Nieuwstad t/o 6 aan de waterkant (Weesp)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.287954/4.995998/52.328258/5.083889/topo/45309//12576351@45309"
+    },
+    {
+      "name": "Nieuwstad 74 (Weesp)",
+      "kind": "toilet",
+      "lat": 52.306325326268,
+      "lng": 5.0420485815855,
+      "address": "Nieuwstad 74 (Weesp)",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.286173/4.998103/52.326478/5.085994/topo/45309//12576354@45309"
+    },
+    {
+      "name": "Weesperplein",
+      "kind": "toilet",
+      "lat": 52.361132,
+      "lng": 4.907532,
+      "address": "Weesperplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.341005/4.863587/52.381259/4.951477/topo/45309//12576357@45309"
+    },
+    {
+      "name": "Nieuwe Keizersgracht H'Art Blinde Muur",
+      "kind": "toilet",
+      "lat": 52.364918,
+      "lng": 4.90293,
+      "address": "Nieuwe Keizersgracht H'Art Blinde Muur",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.344792/4.858985/52.385044/4.946875/topo/45309//12576360@45309"
+    },
+    {
+      "name": "Zuidplein",
+      "kind": "toilet",
+      "lat": 52.33985646,
+      "lng": 4.87268256,
+      "address": "Zuidplein",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.319719/4.828737/52.359994/4.916628/topo/45309//12576363@45309"
+    },
+    {
+      "name": "Westerpark plein Gosschalklaan",
+      "kind": "toilet",
+      "lat": 52.3867184,
+      "lng": 4.8740602,
+      "address": "Westerpark plein Gosschalklaan",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.366603/4.830115/52.406834/4.918006/topo/45309//12576366@45309"
+    },
+    {
+      "name": "Westerpark grote veld",
+      "kind": "toilet",
+      "lat": 52.3867397,
+      "lng": 4.8715448,
+      "address": "Westerpark grote veld",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.366624/4.827599/52.406856/4.915490/topo/45309//12576369@45309"
+    },
+    {
+      "name": "Vondelparkwerf Kattenlaan 6",
+      "kind": "toilet",
+      "lat": 52.3595267,
+      "lng": 4.8652343,
+      "address": "Vondelparkwerf Kattenlaan 6",
+      "description": null,
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.339398/4.821289/52.379655/4.909180/topo/45309//12576372@45309"
+    },
+    {
+      "name": "P+R P1 ArenA",
+      "kind": "park_ride",
+      "lat": 52.31371028,
+      "lng": 4.94060319,
+      "address": "Burgemeester Stramanweg, Amsterdam",
+      "description": "13,- euro per 24 uur of 6,- euro na 10.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.293561/4.896658/52.333859/4.984549/topo/45312//12651425@45312"
+    },
+    {
+      "name": "P+R Boven 't Y",
+      "kind": "park_ride",
+      "lat": 52.39928601,
+      "lng": 4.93921224,
+      "address": "Buikslotermeerplein, Amsterdam",
+      "description": "13,- euro per 24 uur of 6,- euro na 10.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.379176/4.895267/52.419396/4.983158/topo/45312//12651428@45312"
+    },
+    {
+      "name": "P+R Noord",
+      "kind": "park_ride",
+      "lat": 52.39921852,
+      "lng": 4.93012558,
+      "address": "Nieuwe Leeuwarderweg, Amsterdam",
+      "description": "13,- euro per 24 uur of 6,- euro na 10.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.379108/4.886180/52.419329/4.974071/topo/45312//12651431@45312"
+    },
+    {
+      "name": "P+R Sloterdijk",
+      "kind": "park_ride",
+      "lat": 52.39002707,
+      "lng": 4.83842824,
+      "address": "Piarcoplein, Amsterdam",
+      "description": "13,- euro per 24 uur of 6,- euro na 10.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.369913/4.794483/52.410141/4.882374/topo/45312//12651434@45312"
+    },
+    {
+      "name": "P+R Zeeburg II",
+      "kind": "park_ride",
+      "lat": 52.36968307,
+      "lng": 4.96411545,
+      "address": "Zuiderzeeweg, Amsterdam",
+      "description": "13,- euro per 24 uur of 6,- euro na 10.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.349559/4.920170/52.389807/5.008061/topo/45312//12651437@45312"
+    },
+    {
+      "name": "P+R Zeeburg III",
+      "kind": "park_ride",
+      "lat": 52.3707905,
+      "lng": 4.97238288,
+      "address": "Anthonie van Akernstraat, Amsterdam",
+      "description": "13,- euro per 24 uur of 6,- euro na 10.00 uur",
+      "hours": null,
+      "source": "https://kaart.amsterdam.nl/koningsdag-2026#52.350667/4.928438/52.390914/5.016328/topo/45312//12651440@45312"
+    }
+  ]
+}

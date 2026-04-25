@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.git/
+.gitignore
+.idea/
+.vscode/
+.DS_Store
+*.md
+medical_categories.py
+wikem_mega_pack.json
+kings_day_gemeente.txt
+# data/ ships into the image — that's the whole point of the pre-built pattern.

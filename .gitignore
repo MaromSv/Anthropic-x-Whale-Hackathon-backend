@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+.idea/
+.vscode/
+# Exploratory files (not needed for deploy)
+medical_categories.py
+wikem_mega_pack.json
+kings_day_gemeente.txt
