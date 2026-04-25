@@ -107,6 +107,25 @@ def _hardcoded_docs() -> list[RAGDocument]:
             priority="high",
             severity="info",
         ),
+        RAGDocument(
+            title="Boat Safety — King's Day Canals",
+            category="Hazards",
+            content=(
+                "King's Day canals are extremely crowded with party boats. "
+                "Legal limit: maximum 12 people plus a skipper per boat — "
+                "overloaded boats capsize, and falls into the canal during "
+                "crowding are a leading cause of drownings. Skippers face "
+                "fines (€80–€800) for violations. Wear something visible. "
+                "If your boat capsizes or someone falls overboard: do not jump "
+                "in after them, throw anything that floats, call 112, keep "
+                "eye contact and point so rescuers can locate. Cold-water "
+                "shock can incapacitate strong swimmers in seconds."
+            ),
+            tags=["boat", "canal", "drowning", "kings_day"],
+            priority="high",
+            severity="life_threatening",
+            source="https://www.amsterdam.nl/en/leisure/kingsday/",
+        ),
     ]
 
 
