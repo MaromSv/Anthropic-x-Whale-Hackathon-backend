@@ -1,0 +1,141 @@
+  Crisis App Backend — Frontend Integration Brief
+                                                                      
+  Base URL
+                                                                      
+  https://YOUR-SERVICE.onrender.com                         
+  (Find on dashboard.render.com after deploy. Free tier cold-starts   
+  ~30s after 15min idle.)                                             
+                                                                      
+  Endpoints                                                           
+                                                            
+  GET / — health check                                                
+  
+  { "status": "online", "message": "Backend is ready to serve data    
+  packs." }                                                           
+  Use to verify connectivity.
+                                                                      
+  GET /packs — list all available packs                     
+                                                                      
+  Returns a lightweight manifest array. Call this on first launch to  
+  know what's available.
+  [                                                                   
+    { "pack_id": "core_medical",          "name": "Core Medical",
+     "description": "...", "version": "1.0", "location": null,   
+      "is_core": true  },                                             
+    { "pack_id": "amsterdam_basic",       "name": "Amsterdam Basics",
+     "description": "...", "version": "1.0", "location": "Amsterdam,  
+  NL", "is_core": false },                                            
+    { "pack_id": "kings_day_amsterdam",   "name": "King's Day 
+  Amsterdam","description": "...", "version": "1.0", "location":      
+  "Amsterdam, NL", "is_core": false }                                 
+  ]                                  
+                                                                      
+  GET /packs/{pack_id} — download a full pack               
+                                                                      
+  Returns documents + geo POIs for the pack. This is the big payload  
+  (~MBs for core_medical).                                            
+  {                                                                   
+    "pack_id": "kings_day_amsterdam",                       
+    "version": "1.0",                
+    "location": "Amsterdam, NL",
+    "documents": [              
+      {                                                               
+        "title": "NS Train Rules — King's Day & King's Night",
+        "category": "Rules",                                          
+        "content": "Alcohol ban: from 19:00 on April 26...",          
+        "tags": ["train", "ns", "alcohol", "kings_day"],    
+        "priority": "high",          // "high" | "normal"             
+        "severity": "info",          // "info" | "urgent" | 
+  "life_threatening" | null                                           
+        "source": "https://www.ns.nl/en/featured/kings-day"           
+      }                                                               
+    ],                                                                
+    "points_of_interest": [                                           
+      {                    
+        "name": "EHBO-post Centraal Station",                         
+        "kind": "ehbo",              // "ehbo" | "toilet" | 
+  "park_ride" | (extensible)                                          
+        "lat": 52.3779,                                               
+        "lng": 4.8996,                                                
+        "address": "Burgwallen-Nieuwezijds, Amsterdam",               
+        "description": "EHBO-posten voor eerste hulp...",             
+        "hours": null,                                                
+        "source": "https://kaart.amsterdam.nl/koningsdag-2026..."     
+      }                                                               
+    ]                                                                 
+  }                                                         
+                                                                      
+  How "default install" works                               
+                                                                      
+  Yes, the core pack lives at the same endpoint as the optional ones —
+   just flagged differently. Cleaner than a separate endpoint.        
+                                                                      
+  The is_core field on each manifest tells the app what to do:        
+  
+  // Pseudo-Kotlin install flow                                       
+  val manifests = api.getPacks()  // GET /packs             
+                                                                      
+  // On first launch: auto-download all core packs                    
+  manifests.filter { it.isCore }.forEach { manifest ->                
+      val pack = api.getPack(manifest.packId)  // GET /packs/{id}     
+      db.savePack(pack)                                               
+  }
+                                                                      
+  // Show the rest as opt-in cards in the UI                          
+  val optionalPacks = manifests.filter { !it.isCore }
+  // → user picks "King's Day Amsterdam" → download & save            
+                                                                      
+  How RAG should use the data
+                                                                      
+  Two layers, suggested fast→slow fallback:                           
+  
+  1. Tag-filtered fast lane: when user is at King's Day, vector-search
+   only docs where tags contains "kings_day_priority". ~12 docs, super
+   fast retrieval.                                                    
+  2. Full set fallback: if top similarity < threshold, drop the filter
+   and search the full installed pack(s).                             
+  
+  The priority: "high" field is a second knob — useful for ranking    
+  results when mixing packs.                                
+                                                                      
+  POIs (map pins)                                                     
+  
+  Plot every point_of_interest on the map, color/icon by kind:        
+  - ehbo → red cross 🩹 (8 of these on King's Day)          
+  - toilet → blue 🚽 (128)                                            
+  - park_ride → green 🅿️  (6)                                
+                                                                      
+  For "where's the nearest X?" queries, sort POIs by haversine        
+  distance from user GPS — no API call needed, all data is local.     
+                                                                      
+  Versioning / refresh                                                
+                                                            
+  Each manifest has a version field. Store it locally per pack. On    
+  launch, refetch /packs and compare versions — if backend version >
+  local, redownload. (We're at 1.0 across the board for the           
+  hackathon.)                                               
+
+  Pack at a glance
+
+  Pack: core_medical                                                  
+  Default: ✅ auto-installed                                       
+  Documents: ~80 (clinical, WikEM)                                    
+  POIs: 0                                                          
+  ────────────────────────────────────────                         
+  Pack: amsterdam_basic                                               
+  Default: opt-in                                                  
+  Documents: 4 (NL emergency, drug amnesty, hospitals)                
+  POIs: 0                                                          
+  ────────────────────────────────────────                            
+  Pack: kings_day_amsterdam                                 
+  Default: opt-in                                                     
+  Documents: 7 (NS rules, crowd crush, EHBO list, boat safety...)
+  POIs: 142 (8 EHBO + 128 toilets + 6 P+R)                            
+                                                            
+  Errors to expect
+
+  - 404 → pack id doesn't exist                                       
+  - 500 → only if a pack JSON is missing on the server (shouldn't
+  happen post-deploy)                                                 
+  - Render cold start → first call after idle returns slow but normal
+  200, subsequent are fast   
