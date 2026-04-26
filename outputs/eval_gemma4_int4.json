@@ -1,0 +1,190 @@
+{
+  "model": "/gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4",
+  "n_questions": 20,
+  "seed": 42,
+  "mean_similarity": 0.7083056196570396,
+  "std_similarity": 0.11615531312706912,
+  "mean_tok_per_s": 13.486661441356281,
+  "records": [
+    {
+      "question": "How should you transport a casualty with a suspected spinal injury if no spinal board is available?",
+      "reference": "If no spinal board is available, you should use other means to immobilize the casualty, such as a firm surface or stretcher, and ensure that their head, neck, and spine are kept in a neutral position. Manual support may be required, but it is important to avoid twisting or bending the spine during transport.",
+      "answer": "Transporting a casualty with a suspected spinal injury when a spinal board is unavailable requires a **manual in-line stabilization (ILS)** technique, prioritizing **maintaining the head, neck, and spine in a neutral, in-line position** throughout the entire movement.\n\n**Disclaimer:** This information is for educational purposes only and is **not a substitute for formal, hands-on medical training (such as Wilderness First Responder, EMT, or Paramedic training).** In any real emergency, always follow your local protocols and the direction of trained medical personnel.\n\nHere is a step-by-step guide on how to manage this situation:\n\n---\n\n## Phase 1: Preparation and Scene Safety\n\nBefore moving the casualty, ensure the environment is safe.\n\n1. **Ensure Scene Safety:** Make sure the environment is safe for you and the casualty.\n2. **Gather Resources:** Assemble any available equipment (e.g., splinting materials, padding, stretchers, blankets",
+      "similarity": 0.7940540313720703,
+      "output_tokens": 200,
+      "tokens_per_second": 13.287031458790198,
+      "seconds": 15.052271127700806
+    },
+    {
+      "question": "What is the significance of neck vein swelling in heart failure?",
+      "reference": "Neck vein swelling, or jugular venous distension, is a sign of heart failure, particularly when the right side of the heart is not pumping effectively. This leads to increased venous pressure, causing visible swelling in the veins of the neck.",
+      "answer": "Neck vein swelling in the context of heart failure is a **significant clinical sign** that points towards **right-sided heart failure** and the resulting **systemic venous congestion**.\n\nHere is a detailed breakdown of its significance:\n\n---\n\n## 1. The Pathophysiological Mechanism (Why it Happens)\n\nTo understand the significance, you must first understand the underlying mechanism:\n\n* **Right-Sided Heart Failure:** When the right ventricle fails to pump blood effectively, blood backs up into the systemic venous circulation (the veins leading to the body).\n* **Increased Venous Pressure:** This backup causes increased pressure in the large veins, particularly those in the neck and upper chest.\n* **Capillary Leakage:** The elevated hydrostatic pressure forces fluid out of the capillaries and into the surrounding tissues (the interstitial space).\n* **Edema Formation:** This fluid accumulation is what we observe as **edema** (swelling).\n\n**Therefore, neck vein swelling is a direct",
+      "similarity": 0.8224190473556519,
+      "output_tokens": 200,
+      "tokens_per_second": 13.497281994389413,
+      "seconds": 14.817798137664795
+    },
+    {
+      "question": "How do I assist someone with a suspected broken finger?",
+      "reference": "A fractured finger should be immobilized with a splint or by taping it to an adjacent uninjured finger. Keep the hand elevated to reduce swelling. Apply a sterile dressing if there is an open wound. Avoid moving the finger and seek medical attention for proper realignment.",
+      "answer": "**Disclaimer: I am an AI, not a medical professional. The information provided here is for general first-aid guidance only. If you suspect a serious injury, you should always seek immediate professional medical attention.**\n\nIf you suspect someone has a broken finger, the most important thing is to **keep them calm, minimize movement, and manage the pain.**\n\nHere is a step-by-step guide on how to assist someone with a suspected broken finger, focusing on immediate first aid while waiting for professional help:\n\n---\n\n## Phase 1: Immediate First Aid (The R.I.C.E. Method)\n\nThe standard first-aid protocol for suspected fractures is **R.I.C.E.**\n\n### 1. Rest (Immobilization)\n* **Do Not Move It:** The most crucial step is to prevent further injury. Tell the person to stop using the hand immediately.\n* **Immobilize:** If possible, gently support the hand in",
+      "similarity": 0.7621223330497742,
+      "output_tokens": 200,
+      "tokens_per_second": 13.469901512418355,
+      "seconds": 14.847918510437012
+    },
+    {
+      "question": "What should you do if a casualty has been exposed to fumes from a plastic fire?",
+      "reference": "If a casualty has been exposed to fumes from a plastic fire, move them to fresh air immediately while covering your own mouth and nose to avoid inhaling toxic fumes. Check the casualty's breathing, pulse, and airway. If unconscious, place them in the lateral position, and start CPR if necessary. Seek medical help urgently.",
+      "answer": "If a casualty has been exposed to fumes from a plastic fire, **immediate and decisive action is crucial.** This situation requires a structured response based on safety protocols.\n\nHere is a comprehensive guide on what you should do, broken down into immediate first aid, emergency response, and post-incident care:\n\n---\n\n## \u26a0\ufe0f **Phase 1: Immediate First Aid (The First 5 Minutes)**\n\nThe primary goals are to remove the casualty from the source of the fumes and ensure their breathing and airway are clear.\n\n### 1. Ensure Scene Safety (Safety First!)\n* **Do not enter the area without proper PPE (Personal Protective Equipment).** If the fumes are still present, you risk becoming a second casualty.\n* **Ventilate the area:** If safe to do so, open doors and windows to allow fresh air to circulate and dilute the concentration of toxic fumes.\n\n### 2. Remove the Casualty from the Source\n* **Move them immediately:** Carefully",
+      "similarity": 0.855209231376648,
+      "output_tokens": 200,
+      "tokens_per_second": 13.513053149713036,
+      "seconds": 14.800504207611084
+    },
+    {
+      "question": "What are the dangers of not recognizing the symptoms of shock?",
+      "reference": "Failure to recognize the symptoms of shock can lead to worsening of the casualty\u2019s condition, potentially resulting in unconsciousness, organ failure, or death. It is vital to act promptly to prevent deterioration of the victim\u2019s health.",
+      "answer": "The dangers of not recognizing the symptoms of shock are **severe and potentially life-threatening**. Shock is a medical emergency where the body's tissues are not receiving enough blood flow and oxygen to meet their metabolic needs. If left unmanaged, it can rapidly lead to irreversible organ damage and death.\n\nHere is a detailed breakdown of the dangers, categorized by the physiological effects:\n\n---\n\n## 1. Organ Failure and Irreversible Damage\n\nThe primary danger of shock is that it starves vital organs of oxygen and nutrients, leading to cellular death.\n\n* **Brain Damage (Cerebral Hypoxia):** The brain is extremely sensitive to oxygen deprivation. Lack of oxygen leads to confusion, disorientation, seizures, coma, and permanent neurological damage or death.\n* **Kidney Failure (Acute Kidney Injury):** When blood flow stops, the kidneys cannot filter waste products from the blood. This leads to the buildup of toxins (uremia) in the body, resulting in acute kidney failure",
+      "similarity": 0.7047199010848999,
+      "output_tokens": 200,
+      "tokens_per_second": 13.520653557912928,
+      "seconds": 14.792184352874756
+    },
+    {
+      "question": "How can I help prevent my child from swallowing small items?",
+      "reference": "To prevent your child from swallowing small items, keep hazardous objects like coins, beads, and small toy parts out of reach. Always supervise children during play and check their toys for small, detachable pieces. Teaching children not to put objects in their mouths can also be an effective preventive measure.",
+      "answer": "It's a very common concern for parents! Preventing children from swallowing small items is a combination of **environmental management, supervision, and understanding child development.**\n\nHere is a comprehensive, multi-layered approach you can take, broken down by age and situation:\n\n---\n\n## 1. Environmental Management (The Most Important Layer)\n\nThe goal here is to make the environment **child-proof** so that the risk is minimized.\n\n### For Younger Children (Crawlers & Toddlers):\n\n* **The \"Out of Reach\" Rule:** Immediately remove *everything* small, small enough to fit in a toilet paper roll, or small enough to be a choking hazard from the child's current level of reach.\n    * **Examples to remove:** Coins, buttons, small toy parts, beads, small food items (like grapes, hot dogs), small batteries.\n* **Secure Cabinets and Drawers:** Use childproof locks, safety latches, or magnetic closures on",
+      "similarity": 0.7788829803466797,
+      "output_tokens": 200,
+      "tokens_per_second": 13.504829010958243,
+      "seconds": 14.80951738357544
+    },
+    {
+      "question": "How can I tell if my elderly father is having a stroke or just confused?",
+      "reference": "Look for specific stroke indicators: sudden confusion accompanied by difficulty speaking, a red face, one-sided weakness or paralysis, or a severe headache. Ask him to smile and check for facial asymmetry (Face), raise both arms (Arm weakness), and say a simple sentence (Speech). If any signs are present, seek emergency help immediately.",
+      "answer": "It is **extremely important to understand that I am an AI and not a medical professional.** I cannot provide a medical diagnosis. If you suspect your father is having a stroke, **you must treat it as a medical emergency and call emergency services (like 911 in the US) immediately.**\n\nDistinguishing between confusion and a stroke can be very difficult, as the symptoms can overlap, and the elderly may present atypically. However, certain signs are **\"Red Flags\" that suggest a stroke is highly likely and require immediate medical attention.**\n\nHere is a guide to help you recognize the difference, focusing on the **FAST** acronym, and other key differentiating factors.\n\n---\n\n## \ud83d\udea8 **IMMEDIATE ACTION: When to Call Emergency Services (911/Emergency Number)**\n\n**If you observe ANY of the following, do not wait\u2014call emergency services right away.**\n\n### **The FAST Test (The most critical indicator of a Stroke)**\n\n*   **",
+      "similarity": 0.5383591651916504,
+      "output_tokens": 200,
+      "tokens_per_second": 13.490913407431163,
+      "seconds": 14.824793100357056
+    },
+    {
+      "question": "What is the function of round-ended scissors in a first aid kit?",
+      "reference": "Round-ended scissors are designed to safely cut bandages, dressings, or clothing without causing harm to the skin or underlying tissue. Their rounded tips prevent accidental cuts while performing first aid, making them safer to use in emergency situations.",
+      "answer": "Round-ended scissors in a first aid kit are a versatile tool, and their primary functions are to **cut various materials** in a safe and controlled manner.\n\nHere's a breakdown of their specific functions in a first aid context:\n\n**1. Cutting Medical Supplies:**\n\n* **Cutting Gauze or Bandages:** They are excellent for quickly and cleanly cutting gauze, medical tape, or cloth bandages to the required length.\n* **Cutting Medical Tape:** They can be used to cut medical tape to specific measurements needed for dressings or splints.\n* **Cutting Plastic Sheeting/Wraps:** They can be used to cut plastic film or medical wrapping materials.\n\n**2. Cutting Non-Medical Materials (General Utility):**\n\n* **Cutting Clothing:** In an emergency, they can be used to cut away clothing that is snagged, constricting, or needs to be removed quickly (e.g., a shirt caught on a limb).\n* **Cutting Straps",
+      "similarity": 0.6560965776443481,
+      "output_tokens": 200,
+      "tokens_per_second": 13.490200492980595,
+      "seconds": 14.825576543807983
+    },
+    {
+      "question": "How should you treat a person who has been bitten by a Funnel-web spider while waiting for medical help?",
+      "reference": "While waiting for medical help, treat the bite as you would for a snake bite. Keep the victim as calm as possible, minimize movement, and apply first aid for shock if necessary.",
+      "answer": "**Disclaimer: I am an AI, not a medical professional. The information provided here is for general guidance only and is not a substitute for professional medical advice, diagnosis, or treatment. In any emergency, always call your local emergency services (like 911) immediately.**\n\nIf you are in a situation where someone has been bitten by a funnel-web spider and is waiting for medical help, the primary goals are to **manage the symptoms, prevent further complications, and ensure the person remains calm and safe.**\n\nHere is a step-by-step guide on how to care for the person while waiting for professional medical assistance:\n\n---\n\n## **Immediate First Aid Steps (While Waiting for Help)**\n\n### **1. Ensure Safety and Calm the Victim**\n* **Stay Calm:** Your calm demeanor will help the victim remain calm.\n* **Remove the Source (If Safe):** If the spider is still present and you can safely remove it (using a dustpan and",
+      "similarity": 0.5850805044174194,
+      "output_tokens": 200,
+      "tokens_per_second": 13.509798540309903,
+      "seconds": 14.804069757461548
+    },
+    {
+      "question": "Why shouldn't you give water to someone in shock or with serious injuries?",
+      "reference": "In shock or trauma cases, the body may not process fluids properly. Drinking can cause choking or interfere with surgery if needed. Instead, keep the person calm, warm, and still while waiting for emergency medical professionals.",
+      "answer": "Giving water to someone in shock or with serious injuries can be **extremely dangerous and potentially life-threatening**. The decision to give fluids must be made carefully, and in many cases, **it is best to avoid giving plain water immediately.**\n\nHere is a detailed breakdown of why giving water can be harmful, and what the proper approach should be:\n\n---\n\n## Why Giving Water Can Be Dangerous\n\nThe primary danger lies in the physiological state of the person:\n\n### 1. Risk of Aspiration (Choking)\n* **Shock and Altered Mental Status:** When a person is in shock, their consciousness is impaired, their gag reflex may be suppressed, and their ability to swallow or control their airway is compromised.\n* **Risk:** If they are unconscious or semi-conscious, they can easily inhale the fluid into their lungs (aspiration), leading to **aspiration pneumonia**, which is a serious and potentially fatal complication.\n\n### 2. Exacerbation of Conditions (",
+      "similarity": 0.6618006229400635,
+      "output_tokens": 200,
+      "tokens_per_second": 13.495643634650111,
+      "seconds": 14.819597005844116
+    },
+    {
+      "question": "What should you do if the person receiving CPR starts breathing again but remains unconscious?",
+      "reference": "If the person starts breathing again but remains unconscious, you should place them in the recovery position to help maintain an open airway and prevent choking. Keep monitoring their breathing until emergency help arrives.",
+      "answer": "If a person receiving CPR starts breathing again but remains unconscious, this is a **very serious and concerning situation** that requires immediate and careful action.\n\n**The absolute most important thing is to maintain the quality of the CPR and ensure the airway remains open.**\n\nHere is a breakdown of what you should do, categorized by priority:\n\n---\n\n## 1. Maintain CPR Quality (The Priority)\n\nThe primary goal is to keep the heart and lungs functioning until professional help arrives.\n\n* **Continue Compressions:** If the person is still unresponsive, you must **continue performing high-quality chest compressions** at the recommended rate (100-120 compressions per minute) and depth (at least 2 inches/5 cm).\n* **Maintain Airway Patency:** Ensure the airway remains open. If the person is breathing, ensure they don't choke or aspirate (inhale vomit or fluids).\n* **Monitor Vitals:** Keep a close watch",
+      "similarity": 0.6569653749465942,
+      "output_tokens": 200,
+      "tokens_per_second": 13.507784971585066,
+      "seconds": 14.806276559829712
+    },
+    {
+      "question": "How should you respond if someone with a nosebleed is hyperventilating or visibly anxious?",
+      "reference": "Encourage slow, deep mouth-breathing while seated forward and applying pressure. Use a calm voice, provide reassurance, and avoid crowding the individual. Reduce environmental stress to help control both bleeding and anxiety.",
+      "answer": "This is a situation that requires a calm, measured, and compassionate response, prioritizing the person's immediate physical needs while addressing the anxiety.\n\nHere is a step-by-step guide on how to respond, broken down by immediate actions and ongoing support:\n\n---\n\n## Phase 1: Immediate Action (Prioritize Safety and Bleeding)\n\nThe first priority is to manage the nosebleed and the hyperventilation, as these are the most acute physical concerns.\n\n### 1. Stay Calm Yourself (The Anchor)\n* **Your demeanor is crucial.** If you panic, you will increase their anxiety. Take a slow, deep breath yourself to model calm.\n* **Speak in a low, even, and slow tone.** This helps regulate their breathing.\n\n### 2. Address the Nosebleed (If appropriate)\n* **Encourage Pressure (If they are not already doing it):** Gently instruct them to **pinch or press** the soft part of their nose",
+      "similarity": 0.6384556293487549,
+      "output_tokens": 200,
+      "tokens_per_second": 13.483659344574805,
+      "seconds": 14.832768678665161
+    },
+    {
+      "question": "How do you recognize signs of poisoning from inhaled fumes from a fire?",
+      "reference": "Signs of poisoning from inhaled fumes from a fire include coughing, shortness of breath, dizziness, confusion, rapid or shallow breathing, and chest pain. In severe cases, loss of consciousness may occur. Seek medical help immediately and remove the person from the toxic environment.",
+      "answer": "Recognizing signs of poisoning from inhaled fumes, especially from a fire, requires a combination of **observing symptoms, understanding the potential toxins, and knowing the context of the exposure.**\n\n**<strong>\u26a0\ufe0f IMPORTANT DISCLAIMER:</strong>** **This information is for general knowledge and educational purposes only. If you suspect poisoning, especially after a fire, you must immediately call emergency services (like 911 or your local emergency number) or contact a Poison Control Center.** Self-treatment can be dangerous.\n\nHere is a breakdown of how to recognize signs, categorized by the type of potential exposure:\n\n---\n\n## 1. Immediate & Acute Symptoms (The \"Inhalation\" Phase)\n\nThese symptoms occur shortly after exposure and are often related to irritation or direct toxic effects.\n\n### A. Respiratory System Symptoms (Most Common with Fire Fumes)\n\nFire fumes often contain irritants like carbon monoxide, smoke particles, and various volatile organic compounds (VOCs).\n\n* **Coughing",
+      "similarity": 0.858223557472229,
+      "output_tokens": 200,
+      "tokens_per_second": 13.491823860568344,
+      "seconds": 14.823792695999146
+    },
+    {
+      "question": "How does the venom of a Box Jellyfish affect the body?",
+      "reference": "The venom of a Box Jellyfish affects the body by causing intense pain, paralysis, difficulty breathing, and in severe cases, death. The venom works quickly, affecting both the nervous and cardiovascular systems.",
+      "answer": "The venom of a Box Jellyfish (genus *Chironex*) is **extremely potent and dangerous**, capable of causing a wide range of severe physiological effects in humans. The effects are primarily due to the venom's complex mixture of toxins, including **cardiotoxins, neurotoxins, and cytotoxins**.\n\nHere is a detailed breakdown of how the Box Jellyfish venom affects the body:\n\n---\n\n## 1. Cardiovascular System Effects (The Most Immediate Threat)\n\nThe most life-threatening effects are often related to the heart and circulatory system:\n\n* **Cardiac Arrhythmias:** The venom can interfere with the electrical signals in the heart, leading to irregular heartbeats (arrhythmias), which can progress to cardiac arrest.\n* **Myocardial Damage:** Toxins can directly damage the muscle tissue of the heart, impairing its ability to pump blood effectively.\n* **Vascular Effects:** There can be effects on blood vessels, potentially causing constriction or leakage, which",
+      "similarity": 0.8960966467857361,
+      "output_tokens": 200,
+      "tokens_per_second": 13.50808470642826,
+      "seconds": 14.80594801902771
+    },
+    {
+      "question": "How does loss of bowel and bladder control relate to spinal injuries?",
+      "reference": "Loss of bowel and bladder control can be a sign of severe spinal injury, particularly when the spinal cord is damaged. This occurs because the nerves controlling these functions are located in the lower part of the spinal cord. Immediate medical attention is required to address these symptoms.",
+      "answer": "Loss of bowel and bladder control, often referred to as **incontinence**, is a very common and significant complication following spinal cord or nerve root injuries. The relationship is direct and rooted in the way the spinal cord and peripheral nerves control these functions.\n\nHere is a detailed breakdown of how loss of bowel and bladder control relates to spinal injuries:\n\n---\n\n## 1. The Anatomy: How the System Works\n\nThe control of bowel and bladder functions is not managed by the brain directly, but by the **spinal cord** and the **peripheral nerves**.\n\n### A. The Bladder System (Urinary Incontinence)\n* **Control Pathway:** The brain sends signals down the spinal cord to the sacral segments (specifically S2-S4) where the bladder muscles and nerves are located.\n* **Mechanism:** When the bladder fills, sensory nerves signal the brain, which then sends signals to the bladder muscles to contract and empty.\n* **Spinal Injury Impact:**",
+      "similarity": 0.7856324911117554,
+      "output_tokens": 200,
+      "tokens_per_second": 13.477161128990637,
+      "seconds": 14.83992052078247
+    },
+    {
+      "question": "What are the warning signs of a Box Jellyfish sting?",
+      "reference": "Warning signs include intense pain, purplish-red welts on the skin, and the characteristic 'frosted ladder' pattern. Victims may experience irrationality, difficulty breathing, unconsciousness, and in severe cases, breathing and circulation failure.",
+      "answer": "Box jellyfish stings can be **extremely painful and potentially life-threatening**, so recognizing the warning signs is crucial for prompt and appropriate action.\n\nHere are the warning signs, categorized by the immediate, short-term, and long-term effects:\n\n---\n\n## 1. Immediate Warning Signs (During or Right After the Sting)\n\nThese signs indicate an acute, severe reaction:\n\n* **Intense, Throbbing Pain:** The pain is often described as excruciating, burning, or shooting, and it can be severe enough to incapacitate the victim.\n* **Severe Nausea and Vomiting:** A strong, sudden wave of nausea is common.\n* **Vomiting:** The body may react by trying to expel the irritant.\n* **Swelling and Redness (Erythema):** The area where the sting occurred will rapidly become red, swollen, and may feel hot to the touch.\n* **Numbness or Tingling:** Depending on the",
+      "similarity": 0.4057824909687042,
+      "output_tokens": 200,
+      "tokens_per_second": 13.531680573730062,
+      "seconds": 14.78013014793396
+    },
+    {
+      "question": "What should I do if the casualty refuses to allow the tooth to be cleaned?",
+      "reference": "If the casualty refuses, try to calm them down and explain the importance of cleaning the tooth to help save it. If cleaning is absolutely not possible, store the tooth in milk or saliva until dental help can be reached.",
+      "answer": "This is a common and often challenging situation in dentistry. How you proceed depends heavily on **why the casualty is refusing** and the **context** of the situation (e.g., is this a routine procedure, a complex case, or a situation involving patient autonomy?).\n\nHere is a comprehensive, step-by-step approach, broken down by potential causes and recommended actions:\n\n---\n\n## Phase 1: Understand the Refusal (The \"Why\")\n\nBefore taking action, you must try to understand the reason for the refusal. Refusal is rarely arbitrary; it usually stems from one of these categories:\n\n### 1. Fear and Anxiety (Psychological Barrier)\n* **Fear of Pain:** The patient is anticipating discomfort, sensitivity, or bleeding.\n* **Anxiety/Distrust:** They may not trust the practitioner, the procedure, or the environment.\n* **Fear of the Unknown:** They don't understand *why* the cleaning is necessary.",
+      "similarity": 0.6319442987442017,
+      "output_tokens": 200,
+      "tokens_per_second": 13.497468112893536,
+      "seconds": 14.817593812942505
+    },
+    {
+      "question": "How can I create a makeshift splint in an emergency?",
+      "reference": "Use firm items like sticks, rolled magazines, or boards padded with soft materials (clothing, towels). Place the splint along the injured limb, avoiding direct pressure on the fracture. Secure with cloth strips, tape, or belts\u2014snugly but not tightly enough to affect circulation.",
+      "answer": "Creating a makeshift splint in an emergency is a crucial skill for stabilizing a suspected fracture or severe sprain until professional medical help arrives. **It is important to understand that this is a temporary measure, and you should always prioritize calling emergency services (like 911 or your local emergency number) immediately.**\n\nHere is a step-by-step guide on how to create a makeshift splint, along with essential safety precautions.\n\n---\n\n## \u26a0\ufe0f **Crucial First Steps (Safety First!)**\n\nBefore you attempt to splint anything, you must ensure the scene is safe and you have the right mindset:\n\n1. **Ensure Safety:** Make sure the environment is safe for you to work in.\n2. **Call for Help:** **Call emergency services immediately.** Do not delay professional medical care.\n3. **Assess the Situation:** Quickly assess the injury. Do not move the person unless they are in immediate danger (e.g., fire, traffic).",
+      "similarity": 0.6794850826263428,
+      "output_tokens": 200,
+      "tokens_per_second": 13.488818486690631,
+      "seconds": 14.82709550857544
+    },
+    {
+      "question": "Where should chest compressions be applied on a baby under 12 months during CPR?",
+      "reference": "Chest compressions on a baby under 12 months should be applied between the nipples, directly over the lower half of the breastbone.",
+      "answer": "When performing CPR on a baby under 12 months old, the technique for chest compressions is slightly different than for an adult, focusing on **depth and location**.\n\nHere is a detailed breakdown of where and how to apply chest compressions on an infant:\n\n---\n\n## 1. Positioning the Baby\n\n* **Positioning is Key:** The baby should be placed **face-down** on a firm, flat surface (like a firm table or the floor).\n* **Support:** Ensure the baby's head and neck are supported, but the chest itself is the focus.\n\n## 2. Hand Placement\n\n* **Hand Placement:** Use **two fingers** (usually the index and middle fingers) to place on the center of the baby's chest.\n* **Depth:** The depth of compression is crucial. You need to compress the chest to about **one-third the depth of the chest** (or about 1.5 inches, depending on the",
+      "similarity": 0.7062342762947083,
+      "output_tokens": 200,
+      "tokens_per_second": 13.51624116150557,
+      "seconds": 14.797013282775879
+    },
+    {
+      "question": "What are the first signs that a swallowed object is causing an obstruction in the airway?",
+      "reference": "Signs of an airway obstruction may include choking, coughing, difficulty breathing, wheezing, and panic or distress. If these signs occur, it is critical to seek immediate medical help and perform appropriate first aid procedures such as back blows or abdominal thrusts (if trained).",
+      "answer": "The first signs that a swallowed object is causing an obstruction in the airway can vary depending on the size, shape, and location of the object, as well as the individual's physiology. However, the most common and immediate signs are related to **respiratory distress and the inability to breathe normally.**\n\nHere is a breakdown of the key signs, categorized by severity:\n\n---\n\n## 1. Immediate and Obvious Signs (Acute Obstruction)\n\nThese signs indicate a sudden, severe blockage of the airway:\n\n* **Stridor:** This is a high-pitched, harsh, whistling sound made while breathing. It is the classic sign of an upper airway obstruction (like a foreign body in the larynx or trachea).\n* **Inability to Speak or Cry:** If the object is in the upper airway, the person will be unable to produce normal sounds, leading to a strained or gasping sound.\n* **Rapid, Shallow Breathing (Tachypnea):** The person",
+      "similarity": 0.748548150062561,
+      "output_tokens": 200,
+      "tokens_per_second": 13.451199720604773,
+      "seconds": 14.8685622215271
+    }
+  ]
+}

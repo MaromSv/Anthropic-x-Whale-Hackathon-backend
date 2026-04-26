@@ -1,11 +1,28 @@
-# Dev-only deps for the RAG testbench. Not installed in the production Docker
-# image (the API only serves JSON — no model inference happens server-side).
--r requirements.txt
-sentence-transformers>=3.0
-transformers>=4.44
-torch>=2.4
+# Dev environment: inference, quantization, RAG, and finetuning.
+# Matches scripts/setup_venv.sh exactly.
+#
+# Usage (after creating venv):
+#   source ~/whale-venv/bin/activate
+#   pip install -r requirements-dev.txt --extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+numpy>=1.24,<2.0
+transformers>=4.51
 accelerate>=0.33
-python-dotenv>=1.0
-# Optional: uncomment to test GGUF-quantized Gemma variants (Q2..Q8) locally.
-# Pre-quantized files on HF: bartowski/gemma-2-2b-it-GGUF
-# llama-cpp-python>=0.2.90
+safetensors>=0.4
+huggingface-hub>=0.24
+optimum-quanto>=0.2.4
+bitsandbytes>=0.46.1
+datasets>=2.20
+sentence-transformers>=3.0
+peft>=0.14
+trl>=0.12
+timm
+scipy
+scikit-learn
+protobuf
+fastapi
+uvicorn
+pydantic
+requests
+beautifulsoup4

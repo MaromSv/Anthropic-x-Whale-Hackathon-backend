@@ -1,0 +1,71 @@
+============================================================================================== 
+Warning! Mixing Conda and module environments may lead to corruption of the
+user environment. 
+We do not recommend users mixing those two environments unless absolutely
+necessary. Note that 
+SURF does not provide any support for Conda environment.
+For more information, please refer to our software policy page:
+https://servicedesk.surf.nl/wiki/display/WIKI/Software+policy+Snellius#SoftwarepolicySnellius-UseofAnacondaandMinicondaenvironmentsonSnellius 
+
+Remember that many packages have already been installed on the system and can
+be loaded using 
+the 'module load <package__name>' command. If you are uncertain if a package is
+already available 
+on the system, please use 'module avail' or 'module spider' to search for it.
+============================================================================================== 
+WARNING: CUDA_HOME not found; quanto will fall back to CPU inference
+======================================================
+Job: 22247239   Host: gcn137.local.snellius.surf.nl   Date: Sat Apr 25 23:14:11 CEST 2026
+Model: /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it
+======================================================
+Loading embedding model (sentence-transformers/all-MiniLM-L6-v2)...
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 25472.48it/s]
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading model from /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it...
+Detected full HF model at /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it
+[hf:gemma-4-E2B-it] loading on cuda...
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   7%|▋         | 139/1951 [00:00<00:01, 1308.56it/s]Loading weights:  14%|█▍        | 270/1951 [00:00<00:01, 1276.30it/s]Loading weights:  21%|██        | 406/1951 [00:00<00:01, 1300.99it/s]Loading weights:  28%|██▊       | 544/1951 [00:00<00:01, 1327.41it/s]Loading weights:  35%|███▍      | 677/1951 [00:00<00:01, 1273.25it/s]Loading weights:  41%|████▏     | 805/1951 [00:05<00:14, 76.64it/s]  Loading weights:  46%|████▌     | 891/1951 [00:05<00:11, 92.08it/s]Loading weights:  49%|████▉     | 957/1951 [00:06<00:09, 106.39it/s]Loading weights:  52%|█████▏    | 1011/1951 [00:06<00:07, 120.61it/s]Loading weights:  54%|█████▍    | 1056/1951 [00:06<00:07, 119.82it/s]Loading weights:  56%|█████▌    | 1091/1951 [00:06<00:07, 122.48it/s]Loading weights:  57%|█████▋    | 1120/1951 [00:07<00:06, 124.57it/s]Loading weights:  59%|█████▊    | 1144/1951 [00:07<00:06, 122.16it/s]Loading weights:  60%|█████▉    | 1164/1951 [00:07<00:06, 126.72it/s]Loading weights:  61%|██████    | 1183/1951 [00:07<00:06, 119.80it/s]Loading weights:  61%|██████▏   | 1199/1951 [00:07<00:06, 124.77it/s]Loading weights:  62%|██████▏   | 1215/1951 [00:07<00:05, 125.80it/s]Loading weights:  63%|██████▎   | 1230/1951 [00:07<00:05, 126.82it/s]Loading weights:  64%|██████▍   | 1245/1951 [00:08<00:05, 126.78it/s]Loading weights:  65%|██████▍   | 1259/1951 [00:08<00:05, 128.54it/s]Loading weights:  65%|██████▌   | 1273/1951 [00:08<00:05, 125.70it/s]Loading weights:  66%|██████▌   | 1287/1951 [00:08<00:05, 127.16it/s]Loading weights:  73%|███████▎  | 1418/1951 [00:08<00:01, 431.22it/s]Loading weights:  83%|████████▎ | 1622/1951 [00:08<00:00, 862.26it/s]Loading weights:  94%|█████████▍| 1837/1951 [00:08<00:00, 1218.30it/s]Loading weights: 100%|██████████| 1951/1951 [00:08<00:00, 222.58it/s] 
+[transformers] The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Loading FirstAidQA (20 samples, seed=42)...
+
+  #    Sim   Tok/s  Question
+───────────────────────────────────────────────────────────────────────────
+
+--- PROMPT (first question) ---
+'<bos><|turn>user\nHow should you transport a casualty with a suspected spinal injury if no spinal board is available?<turn|>\n<|turn>model\n'
+--- END PROMPT ---
+
+  1  0.757    19.2  How should you transport a casualty with a suspected sp
+  2  0.749    20.2  What is the significance of neck vein swelling in heart
+  3  0.701    20.3  How do I assist someone with a suspected broken finger?
+  4  0.856    20.3  What should you do if a casualty has been exposed to fu
+  5  0.694    20.3  What are the dangers of not recognizing the symptoms of
+  6  0.777    20.3  How can I help prevent my child from swallowing small i
+  7  0.619    20.3  How can I tell if my elderly father is having a stroke 
+  8  0.813    20.2  What is the function of round-ended scissors in a first
+  9  0.704    20.2  How should you treat a person who has been bitten by a 
+ 10  0.636    20.2  Why shouldn't you give water to someone in shock or wit
+ 11  0.676    20.3  What should you do if the person receiving CPR starts b
+ 12  0.748    20.2  How should you respond if someone with a nosebleed is h
+ 13  0.835    20.2  How do you recognize signs of poisoning from inhaled fu
+ 14  0.845    20.2  How does the venom of a Box Jellyfish affect the body?
+ 15  0.805    20.2  How does loss of bowel and bladder control relate to sp
+ 16  0.416    20.2  What are the warning signs of a Box Jellyfish sting?
+ 17  0.585    20.3  What should I do if the casualty refuses to allow the t
+ 18  0.747    20.2  How can I create a makeshift splint in an emergency?
+ 19  0.678    20.3  Where should chest compressions be applied on a baby un
+ 20  0.765    20.2  What are the first signs that a swallowed object is cau
+───────────────────────────────────────────────────────────────────────────
+AVG  0.720    20.2
+
+Model            : /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it
+Questions        : 20
+Mean similarity  : 0.7202  (std 0.1013)
+Mean tok/s       : 20.2
+Total wall time  : 198.1s
+
+Results saved to /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/outputs/eval_gemma4_int4.json
+
+======================================================
+Done. Results at: /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/outputs/eval_gemma4_int4.json
+======================================================

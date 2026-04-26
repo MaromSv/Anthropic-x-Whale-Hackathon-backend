@@ -68,6 +68,7 @@ class HFBackend(Backend):
             model_id,
             torch_dtype=torch.bfloat16 if self.device != "cpu" else torch.float32,
             device_map=self.device,
+            attn_implementation="eager",  # SDPA/cuDNN fails on MIG slices
         )
         self.model.eval()
 
@@ -113,9 +114,12 @@ def _format_prompt(tokenizer, messages: list[dict]) -> str:
         return tokenizer.apply_chat_template(
             messages, tokenize=False, add_generation_prompt=True
         )
-    except Exception:
-        # Gemma format: <start_of_turn>user\n...<end_of_turn>\n<start_of_turn>model\n
-        parts = []
+    except Exception as e:
+        # Surface the failure so the caller knows the template didn't apply.
+        print(f"[warn] apply_chat_template failed ({e}); using manual Gemma format")
+        # Gemma format: <bos><start_of_turn>user\n...<end_of_turn>\n<start_of_turn>model\n
+        bos = getattr(tokenizer, "bos_token", "<bos>") or "<bos>"
+        parts = [bos]
         for m in messages:
             role = "user" if m["role"] == "user" else "model"
             parts.append(f"<start_of_turn>{role}\n{m['content']}<end_of_turn>")
@@ -246,19 +250,34 @@ class QuantoBackend(Backend):
 
         self.name = f"quanto:{os.path.basename(model_path.rstrip('/'))}"
         self._torch = torch
-        # self.device = HFBackend._pick_device(torch)
-        self.device = "cpu"
+        self.device = HFBackend._pick_device(torch)
         print(f"[{self.name}] loading on {self.device}...")
 
         config = AutoConfig.from_pretrained(model_path)
-        with torch.device("meta"):
-            model = AutoModelForCausalLM.from_config(config, torch_dtype=torch.bfloat16)
-
+        # SDPA/cuDNN fails on MIG slices (same fix as HFBackend)
+        config._attn_implementation = "eager"
         state_dict = load_file(os.path.join(model_path, "model.safetensors"))
         with open(os.path.join(model_path, "quanto_qmap.json")) as f:
             qmap = json.load(f)
-        requantize(model, state_dict, qmap, device=torch.device(self.device))
-        model.eval()
+
+        def _load(device: str):
+            with torch.device("meta"):
+                m = AutoModelForCausalLM.from_config(config, torch_dtype=torch.bfloat16)
+            requantize(m, state_dict, qmap, device=torch.device(device))
+            m.eval()
+            return m
+
+        try:
+            model = _load(self.device)
+        except OSError as e:
+            # quanto's CUDA int4 unpack kernel requires JIT compilation which
+            # needs CUDA_HOME / nvcc. If that's not set up, fall back to CPU.
+            if self.device != "cpu":
+                print(f"[{self.name}] CUDA load failed ({e}), retrying on cpu...")
+                self.device = "cpu"
+                model = _load("cpu")
+            else:
+                raise
 
         self.model = model
         self.tokenizer = AutoTokenizer.from_pretrained(model_path)
@@ -280,6 +299,8 @@ class QuantoBackend(Backend):
 
         new_tokens = out[0, prompt_tokens:]
         text = self.tokenizer.decode(new_tokens, skip_special_tokens=True).strip()
+        if not text:
+            print(f"[{self.name}] WARNING: empty output ({new_tokens.shape[0]} raw tokens generated)")
         return GenerationResult(
             text=text,
             prompt_tokens=prompt_tokens,
