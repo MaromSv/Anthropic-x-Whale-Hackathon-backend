@@ -1,0 +1,25 @@
+======================================================
+Job: 22248295   Host: gcn98.local.snellius.surf.nl   Date: Sun Apr 26 01:34:22 CEST 2026
+Model : /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it
+Output: /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4
+bitsandbytes: 0.49.2
+torch CUDA:   12.1
+======================================================
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+[1/4] loading tokenizer for /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it...
+[2/4] loading model with bitsandbytes NF4...
+Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:   3%|▎         | 65/1951 [00:00<00:02, 631.52it/s]Loading weights:  13%|█▎        | 256/1951 [00:00<00:01, 1360.46it/s]Loading weights:  23%|██▎       | 449/1951 [00:00<00:00, 1603.11it/s]Loading weights:  33%|███▎      | 640/1951 [00:00<00:00, 1707.88it/s]Loading weights:  42%|████▏     | 811/1951 [00:02<00:06, 183.69it/s] Loading weights:  47%|████▋     | 923/1951 [00:03<00:04, 217.33it/s]Loading weights:  52%|█████▏    | 1014/1951 [00:03<00:03, 243.56it/s]Loading weights:  56%|█████▌    | 1089/1951 [00:03<00:03, 245.67it/s]Loading weights:  59%|█████▉    | 1148/1951 [00:03<00:03, 249.06it/s]Loading weights:  61%|██████▏   | 1197/1951 [00:04<00:03, 244.54it/s]Loading weights:  63%|██████▎   | 1238/1951 [00:04<00:02, 248.13it/s]Loading weights:  65%|██████▌   | 1275/1951 [00:04<00:02, 254.57it/s]Loading weights:  69%|██████▉   | 1348/1951 [00:04<00:01, 328.20it/s]Loading weights:  83%|████████▎ | 1629/1951 [00:04<00:00, 780.73it/s]Loading weights:  97%|█████████▋| 1901/1951 [00:04<00:00, 1179.59it/s]Loading weights: 100%|██████████| 1951/1951 [00:04<00:00, 420.07it/s] 
+[3/4] saving quantized checkpoint to /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4...
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.77s/it]Writing model shards: 100%|██████████| 1/1 [00:02<00:00,  2.77s/it]
+[transformers] The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[4/4] smoke-test generation...
+Smoke output: ## First Aid: A Comprehensive Overview
+
+**First aid** is the **immediate, temporary care** given to an injured or suddenly ill person before professional medical help arrives or before the person is able to seek professional medical care. Its primary goals are to:
+
+1. **Preserve Life:** To stop imme
+Done.
+
+======================================================
+Done. Model at: /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4
+======================================================

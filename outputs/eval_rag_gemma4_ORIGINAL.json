@@ -1,0 +1,353 @@
+{
+  "model": "/gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it",
+  "n_questions": 20,
+  "k": 5,
+  "seed": 42,
+  "rag_mean_similarity": 0.6418901726603508,
+  "no_rag_mean_similarity": 0.598218397796154,
+  "delta": 0.04367177486419671,
+  "rag_wins": 10,
+  "no_rag_wins": 10,
+  "records": [
+    {
+      "question": "How should you transport a casualty with a suspected spinal injury if no spinal board is available?",
+      "reference": "If no spinal board is available, you should use other means to immobilize the casualty, such as a firm surface or stretcher, and ensure that their head, neck, and spine are kept in a neutral position. Manual support may be required, but it is important to avoid twisting or bending the spine during transport.",
+      "rag_answer": "For a suspected spinal injury, you should maintain cervical spine precautions. Since the context does not specify transport procedures without a spinal board, follow the general advice for spinal immobilization.\n\nCall 112 immediately for life-threatening situations. For non-life-threatening situations, walk to the nearest EHBO (Red Cross) post, as they handle minor injuries. Local context regarding drug overdose amnesty is not provided in this snippet.",
+      "no_rag_answer": "I do not have any context provided to answer your question.\n\nIf you suspect a spinal injury and no spinal board is available, the immediate physical action is to **keep the casualty as still as possible** and **do not move them** unless there is an immediate danger (like fire or imminent collapse).\n\n**Call 112 immediately** for emergency medical services.\n\nLocal context: Follow the instructions given by the emergency operator.",
+      "rag_similarity": 0.6793986558914185,
+      "no_rag_similarity": 0.6537069082260132,
+      "retrieved_titles": [
+        "Back pain",
+        "Cervical spine injury",
+        "Lightning injury",
+        "Head injury",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112"
+      ],
+      "rag_tok_per_s": 17.267993003353848,
+      "no_rag_tok_per_s": 19.911709209600854
+    },
+    {
+      "question": "What is the significance of neck vein swelling in heart failure?",
+      "reference": "Neck vein swelling, or jugular venous distension, is a sign of heart failure, particularly when the right side of the heart is not pumping effectively. This leads to increased venous pressure, causing visible swelling in the veins of the neck.",
+      "rag_answer": "I do not have any context regarding the significance of neck vein swelling in heart failure.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only answer based on the context provided to me. Since no context was provided, I cannot answer your question. Please provide the relevant medical or local knowledge pack so I can assist you accurately.",
+      "rag_similarity": 0.8248692750930786,
+      "no_rag_similarity": 0.1936412751674652,
+      "retrieved_titles": [
+        "Pulmonary embolism",
+        "Shock",
+        "Stroke",
+        "Pulmonary edema",
+        "Crush injury"
+      ],
+      "rag_tok_per_s": 4.106219880480525,
+      "no_rag_tok_per_s": 20.026164471271905
+    },
+    {
+      "question": "How do I assist someone with a suspected broken finger?",
+      "reference": "A fractured finger should be immobilized with a splint or by taping it to an adjacent uninjured finger. Keep the hand elevated to reduce swelling. Apply a sterile dressing if there is an open wound. Avoid moving the finger and seek medical attention for proper realignment.",
+      "rag_answer": "For a suspected broken finger, the management involves wound preparation, exploration to check for foreign bodies or tendon injury, and then suturing.\n\n**Immediate Physical Action:**\n1.  Prepare the wound by debridement, which is the most important step to reduce infection and promote healing.\n2.  Irrigate the wound with high-pressure irrigation (tap water is as effective as sterile water/normal saline).\n3.  Explore the wound to look for foreign bodies, tendon injury, or fracture.\n4.  Close the wound using sutures, such as Simple Interrupted, Horizontal mattress, or Vertical mattress, depending on the tension.\n\n**When to Call 112:**\nCall 112 immediately if there are signs of neurovascular compromise from the fracture.\n\n**Local Context:**\nFor extremities, non-absorbable sutures (like 4-0 or 5-0) are often used for hand wounds. Consider tetanus prophylaxis (Tdap",
+      "no_rag_answer": "I do not have any context provided to answer your question.\n\nFor a suspected broken finger, the immediate physical action is to immobilize the finger and keep it still. Do not try to straighten it. Apply a cold pack or ice wrapped in a cloth to reduce swelling.\n\nCall 112 if the injury is severe, if there is severe bleeding, or if the person cannot move their finger or feels severe pain.\n\nLocal context: I do not have specific local Amsterdam first-aid locations or amnesty information regarding this injury.",
+      "rag_similarity": 0.6882576942443848,
+      "no_rag_similarity": 0.791954755783081,
+      "retrieved_titles": [
+        "Fracture",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112",
+        "Cervical spine injury",
+        "Drug Overdose \u2014 Police Amnesty (Netherlands)",
+        "Laceration repair"
+      ],
+      "rag_tok_per_s": 19.568498754709758,
+      "no_rag_tok_per_s": 20.00267834610378
+    },
+    {
+      "question": "What should you do if a casualty has been exposed to fumes from a plastic fire?",
+      "reference": "If a casualty has been exposed to fumes from a plastic fire, move them to fresh air immediately while covering your own mouth and nose to avoid inhaling toxic fumes. Check the casualty's breathing, pulse, and airway. If unconscious, place them in the lateral position, and start CPR if necessary. Seek medical help urgently.",
+      "rag_answer": "For fumes from a plastic fire, you should assess for signs of inhalation injury (hoarse voice, soot in nose or mouth, stridor, wheezing). Start humidified $\\text{O}_2$.\n\nCall 112 immediately if the situation is life-threatening (unconscious, not breathing, severe bleeding). If not life-threatening, walk to the nearest EHBO post for minor injuries and intoxication triage.\n\nThe context does not provide specific first-aid steps for plastic fire fumes.",
+      "no_rag_answer": "I do not have any context provided regarding exposure to fumes from a plastic fire.\n\n**Immediate Physical Action:** Move the casualty to fresh air immediately. Keep them calm and monitor their breathing.\n\n**When to Call 112:** Call 112 immediately if the casualty is having trouble breathing, is unconscious, or shows severe symptoms.\n\n**Local Context:** I do not have specific local context regarding plastic fire fume exposure in Amsterdam. Seek professional medical help immediately.",
+      "rag_similarity": 0.7710100412368774,
+      "no_rag_similarity": 0.7980530858039856,
+      "retrieved_titles": [
+        "Burn",
+        "Lightning injury",
+        "Carbon monoxide toxicity",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112",
+        "Frostbite"
+      ],
+      "rag_tok_per_s": 17.625669887413792,
+      "no_rag_tok_per_s": 20.180170227743442
+    },
+    {
+      "question": "What are the dangers of not recognizing the symptoms of shock?",
+      "reference": "Failure to recognize the symptoms of shock can lead to worsening of the casualty\u2019s condition, potentially resulting in unconsciousness, organ failure, or death. It is vital to act promptly to prevent deterioration of the victim\u2019s health.",
+      "rag_answer": "I do not have any context provided regarding the dangers of not recognizing the symptoms of shock.",
+      "no_rag_answer": "I do not have any context provided to answer your question.\n\nHowever, generally, not recognizing the symptoms of shock can be extremely dangerous. Shock occurs when the body is not getting enough blood flow, leading to inadequate oxygen and nutrient delivery to vital organs. If left untreated, this can rapidly lead to organ damage, permanent injury, or death.\n\n**Immediate Physical Action:** Try to keep the person calm and lying down. Elevate their legs slightly if possible, unless there is a suspected head, neck, or back injury.\n\n**When to Call 112:** Call 112 immediately if the person is unresponsive, breathing abnormally, has a very weak pulse, or shows signs of severe distress.\n\n**Local Context:** I do not have specific local context regarding Amsterdam emergency procedures for shock. Always prioritize calling 112 for severe medical emergencies.",
+      "rag_similarity": 0.7198901176452637,
+      "no_rag_similarity": 0.6478022933006287,
+      "retrieved_titles": [
+        "Hyperventilation",
+        "Panic attack",
+        "Lightning injury",
+        "Vomiting",
+        "Migraine"
+      ],
+      "rag_tok_per_s": 10.981112191422328,
+      "no_rag_tok_per_s": 20.143798720692544
+    },
+    {
+      "question": "How can I help prevent my child from swallowing small items?",
+      "reference": "To prevent your child from swallowing small items, keep hazardous objects like coins, beads, and small toy parts out of reach. Always supervise children during play and check their toys for small, detachable pieces. Teaching children not to put objects in their mouths can also be an effective preventive measure.",
+      "rag_answer": "I do not have any context information regarding how to prevent a child from swallowing small items.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only answer based on provided context snippets. Since no context was provided, I cannot give you specific advice based on local medical or Amsterdam knowledge packs.\n\nFor advice on preventing choking in a child, please consult a pediatrician or a trusted medical professional.\n\n**If a child is choking:**\n1. **Immediate physical action:** Perform the Heimlich maneuver if the child is conscious and able to cough.\n2. **When to call 112:** Call 112 immediately if the child becomes unconscious or is unable to breathe.\n3. **Local context:** I do not have specific local context regarding choking first aid procedures.",
+      "rag_similarity": 0.7531191110610962,
+      "no_rag_similarity": 0.5051281452178955,
+      "retrieved_titles": [
+        "Vomiting",
+        "Diarrhea",
+        "Nitrous oxide toxicity",
+        "CPR",
+        "Nosebleed"
+      ],
+      "rag_tok_per_s": 12.807292392374295,
+      "no_rag_tok_per_s": 20.000773868530636
+    },
+    {
+      "question": "How can I tell if my elderly father is having a stroke or just confused?",
+      "reference": "Look for specific stroke indicators: sudden confusion accompanied by difficulty speaking, a red face, one-sided weakness or paralysis, or a severe headache. Ask him to smile and check for facial asymmetry (Face), raise both arms (Arm weakness), and say a simple sentence (Speech). If any signs are present, seek emergency help immediately.",
+      "rag_answer": "For stroke, look for specific clinical features. Signs can include contralateral sensory and motor symptoms in the lower extremity (sparing hands/face), urinary and bowel incontinence, or specific deficits depending on the affected brain region (e.g., aphasia, hemiparesis).\n\nCall 112 immediately if you suspect a stroke.\n\nFor evaluation, obtain a blood glucose, and determine the last known time the patient was at baseline. Further work-up may include a Head CT.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only answer based on the context provided to me. Since no context has been provided, I cannot give you specific medical advice.\n\n**For any suspected stroke or serious medical emergency, you must call 112 immediately.**\n\nIf you are concerned about your father's condition, please contact emergency services right away.",
+      "rag_similarity": 0.7372655868530273,
+      "no_rag_similarity": 0.5307592153549194,
+      "retrieved_titles": [
+        "Stroke",
+        "Migraine",
+        "Headache",
+        "Syncope",
+        "Subarachnoid hemorrhage"
+      ],
+      "rag_tok_per_s": 12.703363151209935,
+      "no_rag_tok_per_s": 19.98275845750003
+    },
+    {
+      "question": "What is the function of round-ended scissors in a first aid kit?",
+      "reference": "Round-ended scissors are designed to safely cut bandages, dressings, or clothing without causing harm to the skin or underlying tissue. Their rounded tips prevent accidental cuts while performing first aid, making them safer to use in emergency situations.",
+      "rag_answer": "I do not have any context information regarding the function of round-ended scissors in a first aid kit.",
+      "no_rag_answer": "I do not have any context provided regarding the function of round-ended scissors in a first aid kit. Please provide the relevant context snippets so I can answer your question accurately based only on the provided information.",
+      "rag_similarity": 0.6786131858825684,
+      "no_rag_similarity": 0.6955757141113281,
+      "retrieved_titles": [
+        "Laceration repair",
+        "Canal Safety",
+        "Burn",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112",
+        "Nosebleed"
+      ],
+      "rag_tok_per_s": 13.088261063146268,
+      "no_rag_tok_per_s": 20.003034961328314
+    },
+    {
+      "question": "How should you treat a person who has been bitten by a Funnel-web spider while waiting for medical help?",
+      "reference": "While waiting for medical help, treat the bite as you would for a snake bite. Keep the victim as calm as possible, minimize movement, and apply first aid for shock if necessary.",
+      "rag_answer": "For a spider bite, the context mentions \"Armed spider bite\" under snake bites, but does not provide specific first-aid instructions for a Funnel-web spider bite.\n\nImmediate physical action: The context does not specify an immediate action.\nWhen to call 112: The context does not specify when to call 112 for this injury.\nLocal context: No local context is provided for this specific injury.",
+      "no_rag_answer": "I do not have any context provided regarding the treatment for a funnel-web spider bite.\n\n**Immediate Physical Action:** Keep the affected area clean and try to keep the person calm.\n\n**When to Call 112:** Call 112 immediately if the person shows signs of severe allergic reaction (anaphylaxis), difficulty breathing, or severe pain.\n\n**Local Context:** I do not have specific local context regarding spider bite first aid in Amsterdam. Seek professional medical help immediately.",
+      "rag_similarity": 0.5135934352874756,
+      "no_rag_similarity": 0.44752806425094604,
+      "retrieved_titles": [
+        "Snake bite",
+        "Anaphylaxis",
+        "Laceration repair",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112",
+        "Frostbite"
+      ],
+      "rag_tok_per_s": 18.47713208192694,
+      "no_rag_tok_per_s": 19.9856798405315
+    },
+    {
+      "question": "Why shouldn't you give water to someone in shock or with serious injuries?",
+      "reference": "In shock or trauma cases, the body may not process fluids properly. Drinking can cause choking or interfere with surgery if needed. Instead, keep the person calm, warm, and still while waiting for emergency medical professionals.",
+      "rag_answer": "The provided context does not contain specific instructions on why not to give water to someone in shock or with serious injuries.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only answer based on provided context. Since no context was provided, I cannot give you an answer based solely on the retrieved materials.\n\n**However, in a general first-aid context (not based on provided local context):** Giving water to someone in shock or with serious injuries can be dangerous. If a person is in shock or has serious injuries, the priority is often to maintain their airway and manage bleeding. Giving fluids can sometimes complicate medical assessments or cause aspiration if the person is not fully conscious.\n\n**Immediate Physical Action:** Do not give fluids unless specifically instructed by emergency services or medical professionals.\n\n**When to Call 112:** Call 112 immediately if the person is in shock, has serious injuries, or is unresponsive.\n\n**Local Context:** (No specific local context was provided.)",
+      "rag_similarity": 0.5549418926239014,
+      "no_rag_similarity": 0.5577942132949829,
+      "retrieved_titles": [
+        "Drowning",
+        "Canal Water Rescue \u2014 King's Day Context",
+        "Boat Safety \u2014 King's Day Canals",
+        "Lightning injury",
+        "Burn"
+      ],
+      "rag_tok_per_s": 13.276112602965306,
+      "no_rag_tok_per_s": 20.006898744585897
+    },
+    {
+      "question": "What should you do if the person receiving CPR starts breathing again but remains unconscious?",
+      "reference": "If the person starts breathing again but remains unconscious, you should place them in the recovery position to help maintain an open airway and prevent choking. Keep monitoring their breathing until emergency help arrives.",
+      "rag_answer": "Immediate physical action: Continue CPR.\nCall 112 immediately for any life-threatening situation.\nThe context does not provide specific instructions for this scenario.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only use the provided context. Since no context was provided, I cannot give you an answer based on specific local knowledge packs.\n\n**Please seek immediate professional medical help.**\n\nIf the person starts breathing but remains unconscious, **do not stop CPR**. Continue chest compressions and rescue breaths as instructed by your training or emergency services.\n\n**Call 112 immediately.**\n\nI cannot provide specific local context or medical advice without the necessary information.",
+      "rag_similarity": 0.5043004155158997,
+      "no_rag_similarity": 0.6814025640487671,
+      "retrieved_titles": [
+        "CPR",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112",
+        "Syncope",
+        "Shock",
+        "Drowning"
+      ],
+      "rag_tok_per_s": 14.018015396719733,
+      "no_rag_tok_per_s": 20.016521834124685
+    },
+    {
+      "question": "How should you respond if someone with a nosebleed is hyperventilating or visibly anxious?",
+      "reference": "Encourage slow, deep mouth-breathing while seated forward and applying pressure. Use a calm voice, provide reassurance, and avoid crowding the individual. Reduce environmental stress to help control both bleeding and anxiety.",
+      "rag_answer": "For a nosebleed, demonstrate direct nasal pressure, have the patient blow their nose or use suction to expel clots, and instill a topical vasoconstrictor like oxymetazoline or phenylephrine.\n\nCall 112 if the bleeding is severe or uncontrolled.\n\nThe context does not provide specific instructions for managing a nosebleed concurrent with hyperventilation or anxiety.",
+      "no_rag_answer": "I do not have any context provided to answer your question.\n\n**General First Aid Guidance (Not based on provided context):**\n\n1.  **Immediate Physical Action:** Have the person sit up and lean slightly forward to prevent blood from running down their throat. Have them breathe slowly and deeply through their mouth.\n2.  **When to Call 112:** Call 112 immediately if the bleeding is severe, if the person is losing consciousness, or if they are experiencing severe difficulty breathing.\n3.  **Local Context:** If you are in Amsterdam, emergency services (112) are the primary contact.",
+      "rag_similarity": 0.5208591818809509,
+      "no_rag_similarity": 0.5684430599212646,
+      "retrieved_titles": [
+        "Hyperventilation",
+        "Nosebleed",
+        "Panic attack",
+        "Allergic reaction",
+        "Eye trauma"
+      ],
+      "rag_tok_per_s": 18.195148913506458,
+      "no_rag_tok_per_s": 20.050265404623545
+    },
+    {
+      "question": "How do you recognize signs of poisoning from inhaled fumes from a fire?",
+      "reference": "Signs of poisoning from inhaled fumes from a fire include coughing, shortness of breath, dizziness, confusion, rapid or shallow breathing, and chest pain. In severe cases, loss of consciousness may occur. Seek medical help immediately and remove the person from the toxic environment.",
+      "rag_answer": "If you suspect carbon monoxide toxicity from a fire, the immediate physical action is to ensure fresh air. Call 112 if symptoms are severe.\n\nClinical features of CO toxicity may range from \"flu-like\" symptoms to coma, including:\n*   **CNS:** Headache, visual disturbances, confusion, ataxia, seizure, syncope, focal neurologic deficit, or coma.\n*   **GI:** Vomiting.\n*   **Pulm:** Dyspnea/tachypnea.\n*   **Cardio:** Chest pain, ECG changes/dysrhythmias.\n*   **Derm:** Bullous skin lesions.\n\nIf a patient is comatose after being removed from a fire, assume CO poisoning. For management, provide 100% O2 and maintain it until the carboxyhemoglobin level is below 10%.",
+      "no_rag_answer": "I do not have any context provided to answer your question.\n\nIf someone has been exposed to fumes from a fire, the immediate physical action is to move the person to fresh air immediately.\n\nCall 112 if the person is unconscious, having trouble breathing, or showing severe symptoms.\n\nLocal context: Seek immediate medical attention.",
+      "rag_similarity": 0.6073562502861023,
+      "no_rag_similarity": 0.6433312892913818,
+      "retrieved_titles": [
+        "Carbon monoxide toxicity",
+        "Hyperventilation",
+        "Panic attack",
+        "Mushroom toxicity",
+        "Nitrous oxide toxicity"
+      ],
+      "rag_tok_per_s": 19.079698245866904,
+      "no_rag_tok_per_s": 20.043966565197973
+    },
+    {
+      "question": "How does the venom of a Box Jellyfish affect the body?",
+      "reference": "The venom of a Box Jellyfish affects the body by causing intense pain, paralysis, difficulty breathing, and in severe cases, death. The venom works quickly, affecting both the nervous and cardiovascular systems.",
+      "rag_answer": "I do not have any information in the provided context regarding the effects of Box Jellyfish venom.",
+      "no_rag_answer": "I do not have any context provided regarding the effects of Box Jellyfish venom. For immediate medical advice, please call 112.",
+      "rag_similarity": 0.8291791677474976,
+      "no_rag_similarity": 0.8538233041763306,
+      "retrieved_titles": [
+        "Snake bite",
+        "Anaphylaxis",
+        "GHB toxicity",
+        "Frostbite",
+        "Cocaine toxicity"
+      ],
+      "rag_tok_per_s": 13.997572461555354,
+      "no_rag_tok_per_s": 20.07743379520772
+    },
+    {
+      "question": "How does loss of bowel and bladder control relate to spinal injuries?",
+      "reference": "Loss of bowel and bladder control can be a sign of severe spinal injury, particularly when the spinal cord is damaged. This occurs because the nerves controlling these functions are located in the lower part of the spinal cord. Immediate medical attention is required to address these symptoms.",
+      "rag_answer": "If you suspect Cauda equina syndrome, which can be related to spinal issues, immediate spine surgery consultation for spinal decompression is advised.\n\nImmediate physical action: Seek urgent medical evaluation.\nCall 112: Call 112 immediately if you suspect Cauda equina syndrome.\nLocal context: The onset of perineal anesthesia associated with bladder dysfunction is typical of the start of Cauda equina syndrome.",
+      "no_rag_answer": "I do not have the context snippets you mentioned. Therefore, I cannot provide an answer based solely on the provided material.\n\nFor a medical emergency involving loss of bowel and bladder control, **call 112 immediately**.\n\nSpinal injuries can cause loss of bowel and bladder control due to damage to the nerves controlling these functions. Seek immediate professional medical help.",
+      "rag_similarity": 0.47004956007003784,
+      "no_rag_similarity": 0.6928920745849609,
+      "retrieved_titles": [
+        "Back pain",
+        "Crush injury",
+        "Trauma",
+        "Cervical spine injury",
+        "Diarrhea"
+      ],
+      "rag_tok_per_s": 15.66101265158887,
+      "no_rag_tok_per_s": 20.09398056834427
+    },
+    {
+      "question": "What are the warning signs of a Box Jellyfish sting?",
+      "reference": "Warning signs include intense pain, purplish-red welts on the skin, and the characteristic 'frosted ladder' pattern. Victims may experience irrationality, difficulty breathing, unconsciousness, and in severe cases, breathing and circulation failure.",
+      "rag_answer": "I do not have any context regarding the warning signs of a Box Jellyfish sting.",
+      "no_rag_answer": "I do not have any context provided regarding the warning signs of a Box Jellyfish sting. Please provide the relevant context snippets so I can give you an accurate response based only on the provided information.",
+      "rag_similarity": 0.42994391918182373,
+      "no_rag_similarity": 0.3935750126838684,
+      "retrieved_titles": [
+        "Snake bite",
+        "Anaphylaxis",
+        "Eye trauma",
+        "Canal Safety",
+        "Diarrhea"
+      ],
+      "rag_tok_per_s": 12.790439004589295,
+      "no_rag_tok_per_s": 20.04742875947482
+    },
+    {
+      "question": "What should I do if the casualty refuses to allow the tooth to be cleaned?",
+      "reference": "If the casualty refuses, try to calm them down and explain the importance of cleaning the tooth to help save it. If cleaning is absolutely not possible, store the tooth in milk or saliva until dental help can be reached.",
+      "rag_answer": "I do not have any context regarding what to do if a casualty refuses to allow a tooth to be cleaned.",
+      "no_rag_answer": "I do not have any context provided regarding what to do if a casualty refuses a tooth cleaning. Please provide the relevant context snippets so I can give you an accurate first-aid response based only on the provided information.",
+      "rag_similarity": 0.7762593030929565,
+      "no_rag_similarity": 0.7696470618247986,
+      "retrieved_titles": [
+        "Burn",
+        "Non-Emergency First Aid \u2014 Use EHBO, Not 112",
+        "Laceration repair",
+        "Nosebleed",
+        "Canal Water Rescue \u2014 King's Day Context"
+      ],
+      "rag_tok_per_s": 12.436132117526608,
+      "no_rag_tok_per_s": 20.12831514362264
+    },
+    {
+      "question": "How can I create a makeshift splint in an emergency?",
+      "reference": "Use firm items like sticks, rolled magazines, or boards padded with soft materials (clothing, towels). Place the splint along the injured limb, avoiding direct pressure on the fracture. Secure with cloth strips, tape, or belts\u2014snugly but not tightly enough to affect circulation.",
+      "rag_answer": "The provided context snippets do not contain information on how to create a makeshift splint in an emergency.",
+      "no_rag_answer": "I do not have any context provided to answer your question.\n\nFor a makeshift splint in an emergency, you should immobilize the injured area to prevent further damage. Use rigid materials like rolled-up newspapers, magazines, or sturdy cardboard as padding. Secure the padding firmly with strips of cloth, belts, or tape, ensuring the splint is snug but does not cut off circulation.\n\nCall 112 immediately if the injury is severe, involves suspected broken bones, or if there is severe bleeding.\n\nSince no local context was provided, I cannot offer specific Amsterdam-related advice.",
+      "rag_similarity": 0.49513670802116394,
+      "no_rag_similarity": 0.7450177669525146,
+      "retrieved_titles": [
+        "Crush injury",
+        "Hypothermia",
+        "CPR",
+        "Trauma",
+        "Burn"
+      ],
+      "rag_tok_per_s": 9.515372152814395,
+      "no_rag_tok_per_s": 20.017762931772
+    },
+    {
+      "question": "Where should chest compressions be applied on a baby under 12 months during CPR?",
+      "reference": "Chest compressions on a baby under 12 months should be applied between the nipples, directly over the lower half of the breastbone.",
+      "rag_answer": "For pediatric patients under 12 months during CPR, perform compressions by pushing hard (at least 1/3 chest diameter) and fast (100-120/min).\n\nCall 112 immediately if the situation is life-threatening.\n\nThe context does not specify the exact location for chest compressions on a baby under 12 months.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only answer based on provided context. Since no context was provided, I cannot give you specific instructions based on local knowledge packs.\n\n**For immediate assistance, please call 112.**\n\n*Disclaimer: I cannot provide medical advice. Always follow the instructions of emergency services.*",
+      "rag_similarity": 0.6900410652160645,
+      "no_rag_similarity": 0.20237189531326294,
+      "retrieved_titles": [
+        "CPR",
+        "Shock",
+        "Syncope",
+        "Chest pain",
+        "Pneumothorax"
+      ],
+      "rag_tok_per_s": 16.162609962742412,
+      "no_rag_tok_per_s": 19.971174311442827
+    },
+    {
+      "question": "What are the first signs that a swallowed object is causing an obstruction in the airway?",
+      "reference": "Signs of an airway obstruction may include choking, coughing, difficulty breathing, wheezing, and panic or distress. If these signs occur, it is critical to seek immediate medical help and perform appropriate first aid procedures such as back blows or abdominal thrusts (if trained).",
+      "rag_answer": "The context provided does not contain specific information detailing the first signs of a swallowed object causing an airway obstruction.",
+      "no_rag_answer": "I am an offline crisis-response assistant and can only answer based on the context provided to me. Since no context has been provided, I cannot give you specific first-aid advice.\n\n**If you suspect someone is choking:**\n\n1.  **Immediate Physical Action:** Perform the Heimlich maneuver (abdominal thrusts) if the person is conscious and able to cough.\n2.  **When to Call 112:** Call 112 immediately if the person becomes unconscious or is unable to breathe.\n3.  **Local Context:** I do not have specific local context regarding Amsterdam first-aid procedures for choking. Please seek immediate professional medical help.",
+      "rag_similarity": 0.5937188863754272,
+      "no_rag_similarity": 0.5919202566146851,
+      "retrieved_titles": [
+        "Nosebleed",
+        "Diarrhea",
+        "Asthma exacerbation",
+        "Vomiting",
+        "COPD exacerbation"
+      ],
+      "rag_tok_per_s": 7.381010194347395,
+      "no_rag_tok_per_s": 20.001324372378093
+    }
+  ]
+}
