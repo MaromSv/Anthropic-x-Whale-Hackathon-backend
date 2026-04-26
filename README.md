@@ -11,7 +11,6 @@ ZSM is an offline-first Edge AI app for emergency medical protocols and crises p
 There is no live API. The backend's only job is to compile **Packs** — quantized, on-device-ready bundles consumed by the frontend.
 
 ---
-gu
 ## The Result (Frontend Implementation)
 
 From the frontend, you can install different Packs, pulled from the backend. These are curated, relevant data catered to your location and recent events. With this, ZSM can stay up-to-date and offer specialized, local knowledge to aid users as best as possible.
