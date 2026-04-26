@@ -11,7 +11,7 @@ ZSM is an offline-first Edge AI app for emergency medical protocols and crises p
 There is no live API. The backend's only job is to compile **Packs** — quantized, on-device-ready bundles consumed by the frontend.
 
 ---
-
+gu
 ## The Result (Frontend Implementation)
 
 From the frontend, you can install different Packs, pulled from the backend. These are curated, relevant data catered to your location and recent events. With this, ZSM can stay up-to-date and offer specialized, local knowledge to aid users as best as possible.
@@ -64,9 +64,11 @@ main.py      # pipeline entrypoint
 ## Requirements
 
 ```bash
-pip install -r requirements.txt        # training / pipeline
-pip install -r requirements-edge.txt   # AI Edge Torch toolchain
+pip install -r requirements.txt       # runtime deps used by the Docker image (FastAPI + pack serving)
+pip install -r requirements-dev.txt   # quantization / fine-tuning toolchain (torch, transformers, quanto, bnb)
 ```
+
+`requirements.txt` is what the Dockerfile installs — keep it minimal. `requirements-dev.txt` is only needed locally (or on the GPU box) when building / quantizing models.
 
 ## Current packs
 

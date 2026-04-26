@@ -1,56 +1,0 @@
-WARNING: CUDA_HOME not found; quanto will fall back to CPU inference
-======================================================
-Job: 22248322   Host: gcn98.local.snellius.surf.nl   Date: Sun Apr 26 01:43:21 CEST 2026
-Model: /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4
-======================================================
-Loading embedding model (sentence-transformers/all-MiniLM-L6-v2)...
-Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 13995.96it/s]
-[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
-Loading model from /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4...
-Detected full HF model at /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4
-[hf:gemma-4-E2B-it-bnb-nf4] loading on cuda...
-Loading weights:   0%|          | 0/1951 [00:00<?, ?it/s]Loading weights:  10%|█         | 200/1951 [00:00<00:00, 1946.21it/s]Loading weights:  20%|██        | 395/1951 [00:00<00:00, 1816.70it/s]Loading weights:  30%|██▉       | 578/1951 [00:00<00:00, 1743.23it/s]Loading weights:  39%|███▊      | 753/1951 [00:04<00:12, 98.77it/s]  Loading weights:  44%|████▍     | 861/1951 [00:05<00:08, 122.69it/s]Loading weights:  49%|████▊     | 947/1951 [00:05<00:06, 146.70it/s]Loading weights:  52%|█████▏    | 1020/1951 [00:05<00:05, 170.35it/s]Loading weights:  56%|█████▌    | 1083/1951 [00:05<00:04, 182.34it/s]Loading weights:  58%|█████▊    | 1134/1951 [00:05<00:04, 195.61it/s]Loading weights:  60%|██████    | 1178/1951 [00:06<00:03, 203.86it/s]Loading weights:  62%|██████▏   | 1216/1951 [00:06<00:03, 214.73it/s]Loading weights:  64%|██████▍   | 1251/1951 [00:06<00:03, 216.24it/s]Loading weights:  66%|██████▌   | 1282/1951 [00:06<00:02, 227.78it/s]Loading weights:  74%|███████▍  | 1439/1951 [00:06<00:01, 463.39it/s]Loading weights:  84%|████████▍ | 1635/1951 [00:06<00:00, 763.16it/s]Loading weights:  95%|█████████▌| 1854/1951 [00:06<00:00, 1077.93it/s]Loading weights: 100%|██████████| 1951/1951 [00:06<00:00, 284.12it/s] 
-[transformers] The following generation flags are not valid and may be ignored: ['top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
-Loading FirstAidQA (20 samples, seed=42)...
-
-  #    Sim   Tok/s  Question
-───────────────────────────────────────────────────────────────────────────
-
---- PROMPT (first question) ---
-'<bos><|turn>user\nHow should you transport a casualty with a suspected spinal injury if no spinal board is available?<turn|>\n<|turn>model\n'
---- END PROMPT ---
-
-  1  0.794    13.3  How should you transport a casualty with a suspected sp
-  2  0.822    13.5  What is the significance of neck vein swelling in heart
-  3  0.762    13.5  How do I assist someone with a suspected broken finger?
-  4  0.855    13.5  What should you do if a casualty has been exposed to fu
-  5  0.705    13.5  What are the dangers of not recognizing the symptoms of
-  6  0.779    13.5  How can I help prevent my child from swallowing small i
-  7  0.538    13.5  How can I tell if my elderly father is having a stroke 
-  8  0.656    13.5  What is the function of round-ended scissors in a first
-  9  0.585    13.5  How should you treat a person who has been bitten by a 
- 10  0.662    13.5  Why shouldn't you give water to someone in shock or wit
- 11  0.657    13.5  What should you do if the person receiving CPR starts b
- 12  0.638    13.5  How should you respond if someone with a nosebleed is h
- 13  0.858    13.5  How do you recognize signs of poisoning from inhaled fu
- 14  0.896    13.5  How does the venom of a Box Jellyfish affect the body?
- 15  0.786    13.5  How does loss of bowel and bladder control relate to sp
- 16  0.406    13.5  What are the warning signs of a Box Jellyfish sting?
- 17  0.632    13.5  What should I do if the casualty refuses to allow the t
- 18  0.679    13.5  How can I create a makeshift splint in an emergency?
- 19  0.706    13.5  Where should chest compressions be applied on a baby un
- 20  0.749    13.5  What are the first signs that a swallowed object is cau
-───────────────────────────────────────────────────────────────────────────
-AVG  0.708    13.5
-
-Model            : /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/models/gemma-4-E2B-it-bnb-nf4
-Questions        : 20
-Mean similarity  : 0.7083  (std 0.1162)
-Mean tok/s       : 13.5
-Total wall time  : 296.6s
-
-Results saved to /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/outputs/eval_gemma4_int4.json
-
-======================================================
-Done. Results at: /gpfs/home2/overven/Anthropic-x-Whale-Hackathon-backend/outputs/eval_gemma4_int4.json
-======================================================
